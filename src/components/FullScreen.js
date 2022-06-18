@@ -1,10 +1,9 @@
 import { Component } from 'react'
-import './FullScreen.css'
 
 class FullScreen extends Component {
     render() {
         return (
-            <div className='fullscreen'>
+            <div style={{height: '100vh'}}>
                 {this.props.children}
             </div>
         );

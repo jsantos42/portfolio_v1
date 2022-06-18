@@ -1,0 +1,24 @@
+.projectcard {
+    /*display: inline-flex;*/
+    /*justify-content: center;*/
+    padding: 20px;
+    border: 1px solid white;
+    color: blue;
+}
+
+.projectcard:hover {
+    transform: scale( 1.05 );
+}
+
+.projectcard h2 {
+    /*text-align: center;*/
+}
+
+.projectcard img {
+    /*width: 200px;*/
+    /*margin: 20px;*/
+}
+
+.projectcard img:hover {
+/*gif playing*/
+}
