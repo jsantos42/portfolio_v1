@@ -15,8 +15,8 @@
 }
 
 .projectcard img {
-    /*width: 200px;*/
-    /*margin: 20px;*/
+    width: 200px;
+    margin: 20px;
 }
 
 .projectcard img:hover {
