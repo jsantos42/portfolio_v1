@@ -9,12 +9,13 @@ class ProjectCardList extends Component {
         this.CardArray = projects.map(i =>
             <ProjectCard
                 title={i.title}
+                static={i.static}
+                gif={i.gif}
                 brief={i.brief}
                 languages={i.languages}
                 keywords={i.keywords}
                 repo={i.repo}
                 live={i.live}
-                gif={i.gif}
                 description={i.description}
             />);
     }

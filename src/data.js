@@ -5,7 +5,8 @@ export const personalData = {
 export const projects = [
     {
         title: "Fast-Food",
-        gif: ["url1", "url2"],
+        static: "https://lh4.googleusercontent.com/-gZiu96oTuu4/Uag5oWLQHfI/AAAAAAAABSE/pl1W8n91hH0/w140-h165-no/Homer-Static.png",
+        gif: "https://lh4.googleusercontent.com/i1RprwcvxhbN2TAMunNxS4RiNVT0DvlD9FNQCvPFuJ0=w140-h165-no",
         brief: "Datascience project involving geostatistics",
         languages: ["Python", "R"],
         keywords: ["healthcare", "jupyter notebook"],
@@ -15,7 +16,8 @@ export const projects = [
     },
     {
         title: "Minishell",
-        gif: ["url1", "url2"],
+        static: "url1",
+        gif: "url2",
         brief: "",
         languages: ["C"],
         keywords: ["linux", "unix", "shell"],
@@ -25,7 +27,8 @@ export const projects = [
     },
     {
         title: "Cub3D",
-        gif: ["url1", "url2"],
+        static: "url1",
+        gif: "url2",
         brief: "",
         languages: ["C"],
         keywords: ["game development", "graphics", "3d"],
@@ -35,7 +38,8 @@ export const projects = [
     },
     {
         title: "So Long",
-        gif: ["url1", "url2"],
+        static: "url1",
+        gif: "url2",
         brief: "",
         languages: ["C"],
         keywords: ["game development", "graphics", "2d"],
@@ -45,7 +49,8 @@ export const projects = [
     },
     {
         title: "Other",
-        gif: ["url1", "url2"],
+        static: "url1",
+        gif: "url2",
         brief: "",
         languages: ["C"],
         keywords: ["Linux", "Unix"],

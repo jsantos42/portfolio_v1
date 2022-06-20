@@ -6,9 +6,9 @@
     color: blue;
 }
 
-.projectcard:hover {
-    transform: scale( 1.05 );
-}
+/*.projectcard:hover {*/
+    /*transform: scale( 1.05 );*/
+/*}*/
 
 .projectcard h2 {
     /*text-align: center;*/
