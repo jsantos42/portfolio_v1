@@ -16,25 +16,25 @@ export const personalData = {
 export const projects = [
     {
         title: "Fast-Food",
-        static: "https://lh4.googleusercontent.com/-gZiu96oTuu4/Uag5oWLQHfI/AAAAAAAABSE/pl1W8n91hH0/w140-h165-no/Homer-Static.png",
-        gif: "https://lh4.googleusercontent.com/i1RprwcvxhbN2TAMunNxS4RiNVT0DvlD9FNQCvPFuJ0=w140-h165-no",
+        static: "",
+        gif: "",
         brief: "Datascience project involving geostatistics",
         languages: ["Python", "R"],
         keywords: ["healthcare", "jupyter notebook"],
         repo: "",
-        live: "a",
-        description: "Small shell sadjfsdfjafsadfaj"
+        live: "",
+        description: ""
     },
     {
         title: "Minishell",
         static: minishell_png,
         gif: minishell_gif,
-        brief: "",
+        brief: "A Unix shell, implemented with an Abstract Syntax Tree",
         languages: ["C"],
-        keywords: ["linux", "unix", "shell"],
-        repo: "",
+        keywords: ["shell", "linux", "unix"],
+        repo: "https://github.com/jsantos42/minishell",
         live: "",
-        description: "Small shell sadjfsdfjafsadfaj"
+        description: ""
     },
     {
         title: "Cub3D",
@@ -45,7 +45,7 @@ export const projects = [
         keywords: ["game development", "graphics", "3d"],
         repo: "https://github.com/jsantos42/cub3d",
         live: "",
-        description: "Small shell sadjfsdfjafsadfaj"
+        description: ""
     },
     {
         title: "So Long",
