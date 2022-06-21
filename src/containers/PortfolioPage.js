@@ -6,7 +6,7 @@ class PortfolioPage extends Component {
     render() {
         return (
             <FullScreen>
-                <h1>Some of my projects:</h1>
+                <h2>Some of my projects:</h2>
                 <ProjectCardList/>
             </FullScreen>
         )
