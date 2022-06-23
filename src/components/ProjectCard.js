@@ -22,21 +22,23 @@ class ProjectCard extends Component {
 	insertLinks() {
 		if (this.props.live.length !== 0)
 			return (
-				<p><a href={this.props.repo}>Repo</a> | <a href={this.props.live}>Live</a></p>
+				<p className='links'><a href={this.props.repo}>Repository</a> | <a href={this.props.live}>Live</a></p>
 			);
 		else
-			return (<a href={this.props.repo}>Repo</a>);
+			return (<p className='links'><a href={this.props.repo}>Repository</a></p>);
 	}
 
 	render() {
 		return (
-			<div className='projectcard'>
+			<div className='projectCard'>
 				<h2>{this.props.title}</h2>
+				<div>
+					<p><strong>{this.props.brief}</strong></p>
+					 <p>Languages: <strong>{this.props.languages.join(', ')}</strong></p>
+					 <p>Keywords: <em>{this.props.keywords.join(', ')}</em></p>
+					 {this.insertLinks()}
+				</div>
 				<img src={this.state.imgSrc} onMouseEnter={this.switchToGif} onMouseLeave={this.switchToStatic}/>
-				<p>{this.props.brief}</p>
-				<p>Languages: <em>{this.props.languages.join(', ')}</em></p>
-				<p>Keywords: <em>{this.props.keywords.join(', ')}</em></p>
-				{this.insertLinks()}
 			</div>
 		)
 	}

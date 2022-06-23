@@ -26,7 +26,7 @@ export const projects = [
         description: ""
     },
     {
-        title: "Minishell",
+        title: "minishell",
         static: minishell_png,
         gif: minishell_gif,
         brief: "A Unix shell, implemented with an Abstract Syntax Tree",
@@ -37,7 +37,7 @@ export const projects = [
         description: ""
     },
     {
-        title: "Cub3D",
+        title: "cub3D",
         static: cub3d_png,
         gif: cub3d_gif,
         brief: "Simple 3D maze using raycasting",
@@ -62,7 +62,7 @@ export const projects = [
         title: "Dining Philosophers",
         static: philo_png,
         gif: philo_gif,
-        brief: "Practical implementation of a concurrent algorithm, using threads. Done both in C and C++",
+        brief: "Practical implementation of a concurrent algorithm, using threads",
         languages: ["C", "C++"],
         keywords: ["concurrency", "threads", "unix"],
         repo: "https://github.com/jsantos42/Dining_Philosophers",

@@ -1,24 +1,46 @@
-.projectcard {
-    /*display: inline-flex;*/
-    /*justify-content: center;*/
-    padding: 20px;
-    border: 1px solid white;
-    color: blue;
+.projectCard {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+            "title title"
+            "text img";
+    row-gap: 10px;
+    column-gap: 50px;
+    margin: auto;
+    /*border: 1px solid white;*/
+    /*color: blue;*/
 }
 
-/*.projectcard:hover {*/
+/*.projectCard:hover {*/
     /*transform: scale( 1.05 );*/
 /*}*/
 
-.projectcard h2 {
-    /*text-align: center;*/
+.projectCard h2 {
+    font-size: 2em;
+    font-weight: 600;
+    grid-area: title;
 }
 
-.projectcard img {
-    width: 200px;
-    margin: 20px;
+.projectCard img {
+    grid-area: img;
+    width: 800px;
+    /*margin: 20px;*/
 }
 
-.projectcard img:hover {
+.projectCard img:hover {
 /*gif playing*/
+}
+
+.projectCard div {
+    grid-area: text;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.links {
+    align-self: center;
 }
