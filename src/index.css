@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background: black;*/
-  /*color: white;*/
+  background: #131516;
+  color: #d8d4cf;
 }
 
 code {
@@ -16,4 +16,8 @@ code {
 
 h1, h2 {
   text-align: center;
+}
+
+a {
+  color: #3391ff;
 }
