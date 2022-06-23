@@ -42,12 +42,4 @@ class ProjectCard extends Component {
 	}
 }
 
-{/*      title
-                    brief
-        gifOnHover  languages
-                    keywords
-              repo live
-            */
-}
-
 export default ProjectCard;
