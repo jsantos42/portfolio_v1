@@ -8,7 +8,7 @@ class ProjectCard extends Component {
 		this.state = {imgSrc: this.props.static}
 		this.switchToGif = this.switchToGif.bind(this);
 		this.switchToStatic = this.switchToStatic.bind(this);
-		this.insertLinks = this.insertLinks.bind(this);
+		this.insertLive = this.insertLive.bind(this);
 	}
 
 	switchToGif() {
@@ -19,13 +19,11 @@ class ProjectCard extends Component {
 		this.setState({imgSrc: this.props.static})
 	}
 
-	insertLinks() {
+	insertLive() {
 		if (this.props.live.length !== 0)
 			return (
-				<p className='links'><a href={this.props.repo}>Repository</a> | <a href={this.props.live}>Live</a></p>
+				 <span> | <a href={this.props.live}>Live</a></span>
 			);
-		else
-			return (<p className='links'><a href={this.props.repo}>Repository</a></p>);
 	}
 
 	render() {
@@ -34,9 +32,9 @@ class ProjectCard extends Component {
 				<h2>{this.props.title}</h2>
 				<div>
 					<p><strong>{this.props.brief}</strong></p>
-					 <p>Languages: <strong>{this.props.languages.join(', ')}</strong></p>
-					 <p>Keywords: <em>{this.props.keywords.join(', ')}</em></p>
-					 {this.insertLinks()}
+					<p>Languages: <strong>{this.props.languages.join(', ')}</strong></p>
+					<p>Keywords: <em>{this.props.keywords.join(', ')}</em></p>
+					<p className='links'><a href={this.props.repo}>Repository</a>{this.insertLive()}</p>
 				</div>
 				<img src={this.state.imgSrc} onMouseEnter={this.switchToGif} onMouseLeave={this.switchToStatic}/>
 			</div>
