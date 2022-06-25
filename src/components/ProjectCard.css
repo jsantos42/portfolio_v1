@@ -1,14 +1,69 @@
 .projectCard {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-            "title title"
-            "img text";
-    row-gap: 10px;
-    column-gap: 50px;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1em;
+    /*column-gap: 5em;*/
     /*border: 1px solid white;*/
+}
+
+.projectCard div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.links {
+    align-self: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.7em;
+    }
+    .projectCard img {
+        width: 350px;
+}}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+    .projectCard img {
+        width: 590px;
+}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .projectCard img {
+        width: 750px;
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .projectCard img {
+        width: 800px;
+}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .projectCard .textAndImage {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        /*row-gap: 1em;*/
+        column-gap: 4em;
+    }
+
+    .projectCard h2 {
+        width: 100%;
+    }
 }
 
 /*.projectCard:hover {*/
@@ -21,25 +76,8 @@
     grid-area: title;
 }
 
-.projectCard img {
-    grid-area: img;
-    width: 800px;
-    /*margin: 20px;*/
-}
 
 .projectCard img:hover {
 /*gif playing*/
 }
 
-.projectCard div {
-    grid-area: text;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.2em;
-}
-
-.links {
-    align-self: center;
-}

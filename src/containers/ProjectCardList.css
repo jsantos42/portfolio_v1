@@ -1,8 +1,9 @@
 .projectCardList {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 100px;
-    margin: 10px;
+    gap: 7em;
+    /*margin: 10px;*/
+    /*margin: auto;*/
     height: 80vh;
     overflow: scroll;
 }
