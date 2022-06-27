@@ -15,8 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         <NavBar />
         <Routes>
-            <Route path="/" element={<WelcomePage />}/>
-            <Route path="/projects" element={<Projects />}/>
+            <Route path="/portfolio" element={<WelcomePage />}/>
+            <Route path="/portfolio/projects" element={<Projects />}/>
             {/*{<AboutMe/>}*/}
             {/*    ABOUT ME with chrono */}
             <Route path="*" element={<NotFound />}/>
