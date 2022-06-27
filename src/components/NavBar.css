@@ -2,7 +2,6 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
-    /*box-shadow: 0px -3px 3px inset black;*/
     margin: 0;
     background: #16325b;
     display: flex;
@@ -12,14 +11,14 @@ nav {
 }
 
 nav ul {
-    list-style: none;
-    font-weight: bold;
     display: flex;
     flex-direction: row;
-    margin: 0;
     flex-wrap: wrap;
-    font-size: 1.2em;
+    margin: 0;
     padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    list-style: none;
 }
 
 nav li {
@@ -27,11 +26,7 @@ nav li {
 }
 
 nav li:last-child {
-    /*border-left-width: 2px;*/
-    /*border-left-style: solid;*/
-    /*border-image: linear-gradient(0deg, transparent 35%, white 35%, white 65%, transparent 65%) 1 100%;*/
     background: #122646;
-    /*box-shadow: 0px -3px 3px inset black;*/
 }
 
 nav a {

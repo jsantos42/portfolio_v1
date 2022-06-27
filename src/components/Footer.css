@@ -1,10 +1,8 @@
 footer {
     bottom: 0;
     width: 100%;
-    box-shadow: 0px 3px 3px inset black;
     margin: 0;
     background: #122646;
-    /*justify-content: space-between;*/
 }
 
 footer ul {
@@ -14,15 +12,10 @@ footer ul {
     justify-content: center;
     margin: 0;
     font-size: 1em;
-    list-style: none;
     font-weight: bold;
+    list-style: none;
 }
 
 footer li {
     padding: 0.5em;
 }
-
-nav a {
-    text-decoration: none;
-}
-

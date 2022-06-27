@@ -14,11 +14,37 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 1.2em;
+}
+
+.textAndImage {
+    padding: 0 10px;
+}
+
+.projectCard .text {
+    /*padding: 0 1em;*/
+    align-items: flex-start;
+}
+
+.text p {
+    margin: 0.7em 0;
+
 }
 
 .links {
     align-self: center;
+}
+
+@media only screen and (max-width: 470px) {
+    .textAndImage {
+        width: 350px;
+    }
+
+    .projectCard .text {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -42,7 +68,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .projectCard img {
-        width: 750px;
+        width: 730px;
 }}
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -66,18 +92,9 @@
     }
 }
 
-/*.projectCard:hover {*/
-    /*transform: scale( 1.05 );*/
-/*}*/
-
 .projectCard h2 {
     font-size: 2em;
     font-weight: 600;
     grid-area: title;
-}
-
-
-.projectCard img:hover {
-/*gif playing*/
 }
 

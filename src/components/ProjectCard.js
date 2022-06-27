@@ -31,7 +31,8 @@ class ProjectCard extends Component {
             <div className='projectCard'>
                 <h2>{this.props.title}</h2>
                 <div className='textAndImage'>
-                    <img src={this.state.imgSrc} onMouseEnter={this.switchToGif} onMouseLeave={this.switchToStatic}/>
+                    {/*<img src={this.state.imgSrc} onMouseEnter={this.switchToGif} onMouseLeave={this.switchToStatic}/>*/}
+                    <img src={this.props.gif} />
                     <div className='text'>
                         <p><strong>{this.props.brief}</strong></p>
                         <p>Languages: <strong>{this.props.languages.join(', ')}</strong></p>

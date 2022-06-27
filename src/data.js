@@ -62,7 +62,7 @@ export const projects = [
         title: "Dining Philosophers",
         static: philo_png,
         gif: philo_gif,
-        brief: "Practical implementation of a concurrent algorithm, using threads",
+        brief: "Implementation of a concurrent algorithm, using threads",
         languages: ["C", "C++"],
         keywords: ["concurrency", "threads", "unix"],
         repo: "https://github.com/jsantos42/Dining_Philosophers",
