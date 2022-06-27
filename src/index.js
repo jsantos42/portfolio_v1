@@ -6,16 +6,22 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import WelcomePage from "./containers/WelcomePage";
 import Projects from "./containers/Projects";
+import NotFound from "./components/NotFound";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
+        <NavBar />
         <Routes>
             <Route path="/" element={<WelcomePage />}/>
             <Route path="/projects" element={<Projects />}/>
             {/*{<AboutMe/>}*/}
             {/*    ABOUT ME with chrono */}
+            <Route path="*" element={<NotFound />}/>
         </Routes>
+        <Footer />
     </BrowserRouter>
 
     // <Website/>
