@@ -1,0 +1,21 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2em;
+    padding: 1.5em;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.active {
+    color: #980000;
+}

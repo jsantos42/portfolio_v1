@@ -2,8 +2,4 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 7em;
-    /*margin: 10px;*/
-    /*margin: auto;*/
-    height: 80vh;
-    overflow: scroll;
 }

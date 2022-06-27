@@ -1,16 +1,15 @@
-import FullScreen from "../components/FullScreen";
 import ProjectCardList from "../containers/ProjectCardList";
 import {Component} from "react";
 
-class PortfolioPage extends Component {
+class Projects extends Component {
     render() {
         return (
-            <FullScreen>
+            <div>
                 <h2>Some of my projects:</h2>
                 <ProjectCardList/>
-            </FullScreen>
+            </div>
         )
     }
 }
 
-export default PortfolioPage;
+export default Projects;
