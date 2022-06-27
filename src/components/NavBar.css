@@ -3,11 +3,12 @@ nav {
     top: 0;
     width: 100%;
     margin: 0;
-    background: #16325b;
+    background: #131516;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-bottom: 2px solid black;
+    /*border-bottom: 2px solid black;*/
+    border-bottom: 2px solid #122646;
 }
 
 nav ul {
@@ -16,8 +17,8 @@ nav ul {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    font-size: 1.2em;
-    font-weight: bold;
+    font-size: 1.3em;
+    font-weight: 800;
     list-style: none;
 }
 
