@@ -9,21 +9,21 @@ class NavBar extends Component {
                 <ul>
                     <li>
                         <NavLink className={({isActive}) => isActive ? "active" : "inactive"}
-                                 to={"/"}>Home
+                                 to={"/portfolio"}>Home
                         </NavLink>
                     </li>
                     <li>
                         <NavLink className={({isActive}) => isActive ? "active" : "inactive"}
-                                 to={"/projects"}>Projects
+                                 to={"/portfolio/projects"}>Projects
                         </NavLink>
                     </li>
                     <li>
                         <NavLink className={({isActive}) => isActive ? "active" : "inactive"}
-                                 to={"/about"}>About
+                                 to={"/portfolio/about"}>About
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/resume"}>Download Resume
+                        <NavLink to={"/portfolio/resume"}>Download Resume
                         </NavLink>
                     </li>
                 </ul>
