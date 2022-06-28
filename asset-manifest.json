@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.92b02629.css",
-    "main.js": "/portfolio/static/js/main.a5db1eb3.js",
+    "main.css": "/portfolio/static/css/main.7d65fefe.css",
+    "main.js": "/portfolio/static/js/main.5b31b7d4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cub3d.gif": "/portfolio/static/media/cub3d.425616f7a08ba932358c.gif",
     "static/media/philo.gif": "/portfolio/static/media/philo.8d45febee79aaaced867.gif",
     "static/media/so_long.gif": "/portfolio/static/media/so_long.9329a35c85f6e6989876.gif",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.2e6417db48454dc60b54.pdf",
     "static/media/minishell.gif": "/portfolio/static/media/minishell.6aece6446ac5a353320a.gif",
-    "static/media/minishell.png": "/portfolio/static/media/minishell.ebf36c31e36104bb1f5b.png",
-    "static/media/so_long.png": "/portfolio/static/media/so_long.b99f4c7ec1d1ff1d4eff.png",
-    "static/media/philo.png": "/portfolio/static/media/philo.edb32cd9b0864f291a11.png",
-    "static/media/cub3d.png": "/portfolio/static/media/cub3d.3f5d6f799f13ca43dd12.png",
+    "static/media/fast_food.gif": "/portfolio/static/media/fast_food.1ed22805320f4267fb88.gif",
     "index.html": "/portfolio/index.html",
-    "main.92b02629.css.map": "/portfolio/static/css/main.92b02629.css.map",
-    "main.a5db1eb3.js.map": "/portfolio/static/js/main.a5db1eb3.js.map",
+    "main.7d65fefe.css.map": "/portfolio/static/css/main.7d65fefe.css.map",
+    "main.5b31b7d4.js.map": "/portfolio/static/js/main.5b31b7d4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92b02629.css",
-    "static/js/main.a5db1eb3.js"
+    "static/css/main.7d65fefe.css",
+    "static/js/main.5b31b7d4.js"
   ]
 }
