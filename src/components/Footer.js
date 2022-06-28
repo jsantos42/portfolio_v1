@@ -1,4 +1,3 @@
-import {NavLink} from "react-router-dom";
 import {Component} from "react";
 import "./Footer.css"
 

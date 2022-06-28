@@ -3,12 +3,12 @@ nav {
     top: 0;
     width: 100%;
     margin: 0;
-    background: #131516;
+    background: #041E2C;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     /*border-bottom: 2px solid black;*/
-    border-bottom: 2px solid #122646;
+    /*border-bottom: 2px solid #122646;*/
 }
 
 nav ul {
@@ -23,11 +23,15 @@ nav ul {
 }
 
 nav li {
-    padding: 1.5em;
+    padding: 0.9em 1.5em;
 }
 
-nav li:last-child {
-    background: #122646;
+#download {
+    background: #005684;
+    box-shadow: -2px 2px 3px  black;
+    border-radius: 5px ;
+    padding: 0.9em;
+    height: 1em;
 }
 
 nav a {
@@ -39,8 +43,7 @@ nav a {
     /*color: white;*/
 }
 .active {
-    color: #d89468;
+    color: #FFBE70;
 }
-
 
 /* screen 420*/

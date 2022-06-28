@@ -1,12 +1,12 @@
 // import fast_food_png from './res/fast_food.png'
-// import fast_food_gif from './res/fast_food.gif'
-import minishell_png from './res/minishell.png'
+import fast_food_gif from './res/fast_food.gif'
+// import minishell_png from './res/minishell.png'
 import minishell_gif from './res/minishell.gif'
-import philo_png from './res/philo.png'
+// import philo_png from './res/philo.png'
 import philo_gif from './res/philo.gif'
-import cub3d_png from './res/cub3d.png'
+// import cub3d_png from './res/cub3d.png'
 import cub3d_gif from './res/cub3d.gif'
-import so_long_png from './res/so_long.png'
+// import so_long_png from './res/so_long.png'
 import so_long_gif from './res/so_long.gif'
 
 export const personalData = {
@@ -15,19 +15,19 @@ export const personalData = {
 }
 export const projects = [
     {
-        title: "Fast-Food",
+        title: "Fast-Food and Schools in Portugal",
         static: "",
-        gif: "",
+        gif: fast_food_gif,
         brief: "Datascience project involving geostatistics",
         languages: ["Python", "R"],
-        keywords: ["healthcare", "jupyter notebook"],
+        keywords: ["healthcare", "jupyter notebook", "datascience"],
         repo: "",
         live: "",
         description: ""
     },
     {
         title: "minishell",
-        static: minishell_png,
+        static: "",
         gif: minishell_gif,
         brief: "A Unix shell, implemented with an Abstract Syntax Tree",
         languages: ["C"],
@@ -38,7 +38,7 @@ export const projects = [
     },
     {
         title: "cub3D",
-        static: cub3d_png,
+        static: "",
         gif: cub3d_gif,
         brief: "Simple 3D maze using raycasting",
         languages: ["C"],
@@ -49,7 +49,7 @@ export const projects = [
     },
     {
         title: "So Long",
-        static: so_long_png,
+        static: "",
         gif: so_long_gif,
         brief: "Simple 2D game, using textures and sprites",
         languages: ["C"],
@@ -60,7 +60,7 @@ export const projects = [
     },
     {
         title: "Dining Philosophers",
-        static: philo_png,
+        static: "",
         gif: philo_gif,
         brief: "Implementation of a concurrent algorithm, using threads",
         languages: ["C", "C++"],
