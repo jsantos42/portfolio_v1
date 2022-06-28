@@ -1,6 +1,0 @@
-.projectCardList {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 7em;
-    padding: 4em 0;
-}
