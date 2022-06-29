@@ -1,17 +1,13 @@
-// import fast_food_png from './res/fast_food.png'
 import fast_food_gif from './res/fast_food.gif'
-// import minishell_png from './res/minishell.png'
 import minishell_gif from './res/minishell.gif'
-// import philo_png from './res/philo.png'
 import philo_gif from './res/philo.gif'
-// import cub3d_png from './res/cub3d.png'
 import cub3d_gif from './res/cub3d.gif'
-// import so_long_png from './res/so_long.png'
 import so_long_gif from './res/so_long.gif'
 
 export const personalData = {
     name: 'Joao',
-    role: 'Front-End Developer'
+    currentRole: 'Software Engineer',
+    newRole: 'Front-End Developer'
 }
 export const projects = [
     {

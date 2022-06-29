@@ -4,7 +4,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import WelcomePage from "./containers/WelcomePage";
+import Home from "./containers/Home";
+import About from "./containers/About";
 import Projects from "./containers/Projects";
 import NotFound from "./components/NotFound";
 import NavBar from "./components/NavBar";
@@ -15,16 +16,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         <NavBar />
         <Routes>
-            <Route path="/portfolio" element={<WelcomePage />}/>
+            <Route path="/portfolio" element={<Home />}/>
             <Route path="/portfolio/projects" element={<Projects />}/>
-            {/*{<AboutMe/>}*/}
-            {/*    ABOUT ME with chrono */}
+            <Route path="/portfolio/about" element={<About/>}/>
             <Route path="*" element={<NotFound />}/>
         </Routes>
         <Footer />
     </BrowserRouter>
-
-    // <Website/>
 );
 
 // If you want to start measuring performance in your app, pass a function
