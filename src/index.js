@@ -4,11 +4,11 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from "./containers/Home";
-import About from "./containers/About";
-import Projects from "./containers/Projects";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
 import NotFound from "./components/NotFound";
-import NavBar from "./components/NavBar";
+import NavBar from "./containers/NavBar";
 import Footer from "./components/Footer";
 
 

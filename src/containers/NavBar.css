@@ -5,13 +5,14 @@ nav {
     margin: 0;
     background: #041E2C;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
     /*border-bottom: 2px solid black;*/
     /*border-bottom: 2px solid #122646;*/
 }
 
-nav ul {
+.desktop-nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,6 +21,22 @@ nav ul {
     font-size: 1.3em;
     font-weight: 800;
     list-style: none;
+}
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    font-weight: 800;
+    list-style: none;
+}
+
+.mobile-nav.closed {
+    display: none;
 }
 
 nav li {
