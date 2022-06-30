@@ -5,7 +5,7 @@ import cub3d_gif from './res/cub3d.gif'
 import so_long_gif from './res/so_long.gif'
 
 export const personalData = {
-    name: 'Joao',
+    name: 'joao_almeida_santos',
     currentRole: 'Software Engineer',
     newRole: 'Front-End Developer'
 }

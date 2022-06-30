@@ -10,7 +10,7 @@ const StyledImg = styled.img`
   }
 `
 
-export const Hamburger = ({action, mobile}) => {
+const Hamburger = ({action, mobile}) => {
     if (mobile) {
         return (
             <StyledImg src={hamburguerImg} alt="aaa" onClick={action}/>
@@ -18,4 +18,4 @@ export const Hamburger = ({action, mobile}) => {
     }
 }
 
-
+export default Hamburger;

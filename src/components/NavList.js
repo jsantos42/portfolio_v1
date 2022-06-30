@@ -13,9 +13,6 @@ const NavList = ({action, mobile, open}) => {
                      to={"/portfolio/projects"}>
                 <li>Projects</li>
             </NavLink>
-            <NavLink className={({isActive}) => isActive ? "active" : "inactive"} to={"/portfolio/about"}>
-                <li>About</li>
-            </NavLink>
             {/*this Button needs to become a separate component*/}
             <Link to={cv} target="_blank" download={"Resume Joao Almeida Santos.pdf"}>
                 <li id={"download"}>Download Resume</li>

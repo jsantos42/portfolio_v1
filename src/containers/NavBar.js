@@ -1,9 +1,9 @@
-import {Link, NavLink} from "react-router-dom";
 import {Component} from "react";
-import "./NavBar.css"
-import cv from "../res/CV.pdf"
-import {Hamburger} from "../components/Hamburguer";
+import Hamburger from "../components/Hamburguer";
+import Title from "../components/Title";
 import NavList from "../components/NavList";
+import {personalData} from "../data";
+import "./NavBar.css"
 
 class NavBar extends Component {
     constructor() {
@@ -12,16 +12,16 @@ class NavBar extends Component {
             mobile: true,
             open: false,
         }
+        this.mobileThreshold = 768;
         this.toggleMobile = this.toggleMobile.bind(this);
         this.toggleOpen = this.toggleOpen.bind(this);
     }
 
     toggleMobile() {
-        if (window.innerWidth < 470) {
+        if (window.innerWidth < this.mobileThreshold) {
             this.setState({mobile: true});
             this.setState({open: false});
-        }
-        else {
+        } else {
             this.setState({mobile: false});
             this.setState({open: true});
         }
@@ -29,34 +29,29 @@ class NavBar extends Component {
 
     toggleOpen() {
         if (this.state.open)
-           this.setState({open: false});
+            this.setState({open: false});
         else
             this.setState({open: true});
     }
 
     componentDidMount() {
-        if (window.innerWidth > 470) {
+        if (window.innerWidth > this.mobileThreshold) {
             this.setState({mobile: false});
             this.setState({open: true});
         }
         window.addEventListener("resize", this.toggleMobile);
-        // window.addEventListener("resize", this.toggleNav); for button
     }
 
     render() {
-        // if (this.state.mobileScreen) {
-        //     // return (
-        //     // )
-        // }
-        // else {
-        console.log(this.state.open);
-            return (
-                <nav>
-                    <Hamburger action={this.toggleOpen} mobile={this.state.mobile} />
-                    <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open}/>
+        return (
+            <nav>
+                <Title>{personalData.name}</Title>
+                <Hamburger action={this.toggleOpen} mobile={this.state.mobile}/>
+                <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open}>
                     {/* download button */}
-                </nav>
-            );
+                </NavList>
+            </nav>
+        );
         // }
     }
 }
