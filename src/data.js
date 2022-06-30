@@ -14,10 +14,10 @@ export const projects = [
         title: "Fast-Food and Schools in Portugal",
         static: "",
         gif: fast_food_gif,
-        brief: "Datascience project involving geostatistics",
+        brief: "Datascience project to find out a potential geographical clustering",
         languages: ["Python", "R"],
-        keywords: ["healthcare", "jupyter notebook", "datascience"],
-        repo: "",
+        keywords: ["datascience", "healthcare", "jupyter notebook"],
+        repo: "https://github.com/jsantos42/fast_food_and_schools_in_Portugal",
         live: "",
         description: ""
     },
