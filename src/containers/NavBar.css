@@ -24,12 +24,16 @@ nav {
 }
 
 .mobile-nav {
+    position: absolute;
+    top: 90px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     margin: 0;
     padding: 0;
+    background: #041E2C;
+    box-shadow: 0px 0px 10px  black;
     font-size: 1.3em;
     font-weight: 800;
     list-style: none;
