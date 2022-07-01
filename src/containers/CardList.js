@@ -1,13 +1,12 @@
 import {Component} from "react";
-import ProjectCard from "../components/ProjectCard";
-import "./ProjectCardList.css"
+import Card from "../components/Card";
 import {projects} from "../data";
 
-class ProjectCardList extends Component {
+class CardList extends Component {
     constructor() {
         super();
         this.CardArray = projects.map(i =>
-            <ProjectCard
+            <Card
                 title={i.title}
                 static={i.static}
                 gif={i.gif}
@@ -18,15 +17,21 @@ class ProjectCardList extends Component {
                 live={i.live}
                 description={i.description}
             />);
+        this.CardListStyle = {
+            display: 'grid',
+            gridTemplateColumns: '1fr',
+            gap: '7em',
+            padding: '4em 0'
+        }
     }
+
     render() {
-        console.log(this.CardArray);
         return (
-            <div className='projectCardList'>
+            <div style={this.CardListStyle}>
                 {this.CardArray}
             </div>
         );
     }
 }
 
-export default ProjectCardList;
+export default CardList;

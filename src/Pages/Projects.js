@@ -1,13 +1,9 @@
-import ProjectCardList from "../containers/ProjectCardList";
+import CardList from "../containers/CardList";
 import {Component} from "react";
 
 class Projects extends Component {
     render() {
-        return (
-            <div>
-                <ProjectCardList/>
-            </div>
-        )
+        return <CardList/>
     }
 }
 

@@ -1,4 +1,4 @@
-import "./PageStyling.css"
+import "./Home.css"
 import {Component} from "react";
 import {personalData} from "../data";
 import MainAvatar from "../res/undraw_shared_workspace_re_3gsu.png"

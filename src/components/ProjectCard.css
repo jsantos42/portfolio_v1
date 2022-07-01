@@ -1,100 +1,80 @@
-.projectCard {
+.card, .cardContent, .cardText {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    row-gap: 1em;
-    /*column-gap: 5em;*/
+    align-items: center;
+    text-align: center;
     /*border: 1px solid white;*/
 }
 
-.projectCard div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2em;
+.card {
+    row-gap: 1em;
 }
 
-.textAndImage {
-    padding: 0 10px;
+.card h2 {
+    font-size: 2em;
+    font-weight: 600;
 }
 
-.projectCard .text {
-    /*padding: 0 1em;*/
-    align-items: flex-start;
+.cardContent {
+    padding: 0 1em;
+    font-size: 1.4em;
 }
 
-.text p {
+.cardText p {
     margin: 0.7em 0;
-
 }
 
-.links {
+.cardLinks {
     align-self: center;
 }
 
 @media only screen and (max-width: 470px) {
-    .textAndImage {
-        width: 350px;
-    }
 
-    .projectCard .text {
-        align-items: center;
-        text-align: center;
-    }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: 0.7em;
+    .cardContent {
+        min-width: 280px;
+        max-width: 350px;
     }
-    .projectCard img {
-        width: 350px;
-}}
+
+    .cardContent img {
+        width: 100%;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    body {
-        font-size: 0.9em;
-    }
-    .projectCard img {
+    .cardContent img {
         width: 590px;
 }}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .projectCard img {
+    .cardContent img {
         width: 730px;
-}}
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .projectCard img {
+    .card img {
         width: 800px;
 }}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .projectCard .textAndImage {
+    .cardContent {
         flex-direction: row;
         align-items: center;
         flex-wrap: nowrap;
-        /*row-gap: 1em;*/
-        column-gap: 4em;
+        column-gap: 3em;
     }
 
-    .projectCard h2 {
+    .card h2 {
         width: 100%;
     }
 }
-
-.projectCard h2 {
-    font-size: 2em;
-    font-weight: 600;
-    grid-area: title;
-}
-
