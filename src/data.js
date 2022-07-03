@@ -1,3 +1,4 @@
+import shopping_gif from './res/shopping.gif'
 import fast_food_gif from './res/fast_food.gif'
 import minishell_gif from './res/minishell.gif'
 import philo_gif from './res/philo.gif'
@@ -11,6 +12,17 @@ export const personalData = {
 }
 export const projects = [
     {
+        title: "Portfolio",
+        static: "",
+        gif: "",
+        brief: "Website showcasing my main projects",
+        languages: ["JavaScript", "React.js"],
+        keywords: ["front end", "website", "portfolio"],
+        repo: "https://github.com/jsantos42/portfolio",
+        live: "https://jsantos42.github.io/portfolio/",
+        description: ""
+    },
+    {
         title: "Fast-Food and Schools in Portugal",
         static: "",
         gif: fast_food_gif,
@@ -18,6 +30,17 @@ export const projects = [
         languages: ["Python", "R"],
         keywords: ["datascience", "healthcare", "jupyter notebook"],
         repo: "https://github.com/jsantos42/fast_food_and_schools_in_Portugal",
+        live: "",
+        description: ""
+    },
+    {
+        title: "Shopping List",
+        static: "",
+        gif: shopping_gif,
+        brief: "My first project in Vanilla JS",
+        languages: ["JavaScript" ],
+        keywords: ["front end", "website", "app"],
+        repo: "https://github.com/jsantos42/WebDev/tree/master/10%20DOM%20Events%20(shopping%20list)",
         live: "",
         description: ""
     },

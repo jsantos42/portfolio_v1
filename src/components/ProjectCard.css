@@ -8,7 +8,7 @@
     /*border: 1px solid white;*/
 }
 
-.card {
+.card, .cardContent {
     row-gap: 1em;
 }
 
@@ -28,6 +28,10 @@
 
 .cardLinks {
     align-self: center;
+}
+
+.cardContent img {
+    box-shadow: 0px 0px 25px 2px black;
 }
 
 @media only screen and (max-width: 470px) {
