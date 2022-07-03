@@ -1,5 +1,6 @@
-import shopping_gif from './res/shopping.gif'
 import fast_food_gif from './res/fast_food.gif'
+import robots_gif from './res/robots.gif'
+import shopping_gif from './res/shopping.gif'
 import minishell_gif from './res/minishell.gif'
 import philo_gif from './res/philo.gif'
 import cub3d_gif from './res/cub3d.gif'
@@ -16,7 +17,7 @@ export const projects = [
         static: "",
         gif: "",
         brief: "Website showcasing my main projects",
-        languages: ["JavaScript", "React.js"],
+        languages: ["React.js", "JavaScript"],
         keywords: ["front end", "website", "portfolio"],
         repo: "https://github.com/jsantos42/portfolio",
         live: "https://jsantos42.github.io/portfolio/",
@@ -30,6 +31,17 @@ export const projects = [
         languages: ["Python", "R"],
         keywords: ["datascience", "healthcare", "jupyter notebook"],
         repo: "https://github.com/jsantos42/fast_food_and_schools_in_Portugal",
+        live: "",
+        description: ""
+    },
+    {
+        title: "RoboFriends App",
+        static: "",
+        gif: robots_gif,
+        brief: "My first React project, following a Udemy course",
+        languages: ["React.js", "JavaScript"],
+        keywords: ["front end", "website", "app"],
+        repo: "https://github.com/jsantos42/WebDev/tree/master/13_Robot_App",
         live: "",
         description: ""
     },
