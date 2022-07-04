@@ -20,8 +20,8 @@ class CardList extends Component {
         this.CardListStyle = {
             display: 'grid',
             gridTemplateColumns: '1fr',
-            gap: '7em',
-            padding: '4em 0'
+            gap: '7rem',
+            padding: '4rem 0'
         }
     }
 

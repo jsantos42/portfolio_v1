@@ -5,14 +5,9 @@ nav {
     margin: 0;
     background: #041E2C;
     display: flex;
-    /*flex-direction: column;*/
-    /*align-items: flex-end;*/
-    /*justify-content: center;*/
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /*border-bottom: 2px solid black;*/
-    /*border-bottom: 2px solid #122646;*/
 }
 
 .desktop-nav {
@@ -21,7 +16,6 @@ nav {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    font-size: 1.3em;
     font-weight: 800;
     list-style: none;
 }
@@ -37,8 +31,7 @@ nav {
     margin: 0;
     padding: 0;
     background: #041E2C;
-    box-shadow: 0px 0px 10px  black;
-    font-size: 1.3em;
+    box-shadow: 0 0 10px  black;
     font-weight: 800;
     list-style: none;
 }
@@ -48,15 +41,14 @@ nav {
 }
 
 nav li {
-    padding: 0.9em 1.5em;
+    padding: 0.9rem 1.5rem;
 }
 
 #download {
     background: #005684;
     box-shadow: -2px 2px 3px  black;
     border-radius: 5px ;
-    padding: 0.9em;
-    height: 1em;
+    padding: 0.9rem;
 }
 
 nav a {

@@ -9,21 +9,21 @@
 }
 
 .card, .cardContent {
-    row-gap: 1em;
+    row-gap: 1rem;
 }
 
 .card h2 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .cardContent {
-    padding: 0 1em;
-    font-size: 1.4em;
+    font-size: 1.4rem;
+    padding: 0 1rem;
 }
 
 .cardText p {
-    margin: 0.7em 0;
+    margin: 0.7rem 0;
 }
 
 .cardLinks {
@@ -75,7 +75,7 @@
         flex-direction: row;
         align-items: center;
         flex-wrap: nowrap;
-        column-gap: 3em;
+        column-gap: 3rem;
     }
 
     .card h2 {
