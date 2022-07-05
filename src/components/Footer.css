@@ -2,19 +2,20 @@ footer {
     width: 100%;
     margin: auto 0 0 0;
     background: #005684;
-}
-
-footer ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0;
-    /*font-size: 1rem;*/
+    align-items: center;
     font-weight: 800;
     list-style: none;
+    padding: 1rem;
 }
 
-footer li {
-    padding: 0.5rem;
+footer img {
+    width: 1.5rem;
+}
+
+footer p {
+    margin: 0;
 }
