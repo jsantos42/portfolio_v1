@@ -11,11 +11,10 @@ class Home extends Component {
     render() {
         return (
             <div className='home'>
-                {/*<div style={{width: '100vw'}}>*/}
-                <h1>Software Engineer <br/>keen on Frontend</h1>
-                {/*</div>*/}
+                <h1>Junior Software Engineer</h1>
+                <img src={Doctor}/>
                 <img src={Programmer}/>
-                <div className='homeContent'>
+                <div className='about'>
                     <h2>About Me:</h2>
                     <ul>
                         <li>background in <Highlight>Medicine</Highlight></li>
@@ -29,8 +28,10 @@ class Home extends Component {
                         <li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>
                         <li>worships <Highlight>Sir Jony Ive</Highlight></li>
                     </ul>
+                </div>
+                <div className='more'>
                     <h2>Want to know more?</h2>
-                    <button>Contact Me</button>
+                    <button>Contact Me (this button still doesn't work!)</button>
                 </div>
             </div>
         )

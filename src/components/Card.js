@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import './ProjectCard.css'
+import './Card.css'
 
 class Card extends Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class Card extends Component {
                     <img src={this.props.gif} />
                     <div className='cardText'>
                         <p><strong>{this.props.brief}</strong></p>
-                        <p>Languages: <strong>{this.props.languages.join(', ')}</strong></p>
+                        <p>Stack: <strong>{this.props.languages.join(', ')}</strong></p>
                         <p className='cardLinks'><a href={this.props.repo}>Repository</a>{this.insertLive()}</p>
                     </div>
                 </div>
