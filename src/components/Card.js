@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import A from './A'
 import './Card.css'
 
 class Card extends Component {
@@ -11,7 +12,7 @@ class Card extends Component {
     insertLive() {
         if (this.props.live.length !== 0)
             return (
-                <span> | <a href={this.props.live}>Live</a></span>
+                <span> | <A href={this.props.live}>Live</A></span>
             );
     }
 
@@ -24,7 +25,7 @@ class Card extends Component {
                     <div className='cardText'>
                         <p><strong>{this.props.brief}</strong></p>
                         <p>Stack: <strong>{this.props.languages.join(', ')}</strong></p>
-                        <p className='cardLinks'><a href={this.props.repo}>Repository</a>{this.insertLive()}</p>
+                        <p className='cardLinks'><A href={this.props.repo}>Repository</A>{this.insertLive()}</p>
                     </div>
                 </div>
             </div>
