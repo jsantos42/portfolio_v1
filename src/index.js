@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-// import tachyons from 'tachyons'
+import Body from "./containers/Body";
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -13,13 +13,15 @@ import Footer from "./components/Footer";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-        <NavBar />
-        <Routes>
-            <Route path="/portfolio" element={<Home />}/>
-            <Route path="/portfolio/projects" element={<Projects />}/>
-            <Route path="*" element={<NotFound />}/>
-        </Routes>
-        <Footer />
+        <Body>
+            <NavBar/>
+            <Routes>
+                <Route path="/portfolio" element={<Home/>}/>
+                <Route path="/portfolio/projects" element={<Projects/>}/>
+                <Route path="*" element={<NotFound/>}/>
+            </Routes>
+            <Footer/>
+        </Body>
     </BrowserRouter>
 );
 
