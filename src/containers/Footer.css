@@ -9,11 +9,12 @@ footer {
     align-items: center;
     font-weight: 800;
     list-style: none;
-    padding: 1rem;
+    padding: 1rem 0;
+    gap: 1rem;
 }
 
 footer img {
-    width: 1.5rem;
+    height: 1.5rem;
 }
 
 footer p {

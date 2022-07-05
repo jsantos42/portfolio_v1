@@ -1,10 +1,10 @@
 import {Component} from "react";
 import "./Footer.css"
-import Social from "./Social";
+import Social from "../components/Social";
 import LinkedIn from "../res/linked_in.png";
 import Git from "../res/git.png";
 import Email from "../res/email.png";
-import A from './A'
+import A from '../components/A'
 
 class Footer extends Component {
     render() {

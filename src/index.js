@@ -8,7 +8,7 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import NotFound from "./components/NotFound";
 import NavBar from "./containers/NavBar";
-import Footer from "./components/Footer";
+import Footer from "./containers/Footer";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

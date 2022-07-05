@@ -21,7 +21,8 @@ class CardList extends Component {
             display: 'grid',
             gridTemplateColumns: '1fr',
             gap: '7rem',
-            padding: '4rem 0'
+            padding: '4rem 0',
+            minHeight: 'calc(100vh - 6rem - 5.5rem)'
         }
     }
 

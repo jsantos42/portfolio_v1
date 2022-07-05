@@ -1,5 +1,6 @@
 html, body, #root {
-  height: 100%;
+  /*height: calc(100vh - 6rem);*/
+  /*height: 100%;*/
 }
 
 body {
@@ -11,6 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #041E2C;
   color: #d8d4cf;
+}
+
+#root {
+  /*margin: 6rem 0 0 0;*/
 }
 
 code {
