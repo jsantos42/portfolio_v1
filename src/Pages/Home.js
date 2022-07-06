@@ -31,10 +31,10 @@ class Home extends Component {
                     </ul>
                 </div>
                 <div className='more'>
-                {/*    <h2>Interested?</h2>*/}
-                {/*    <h2>Contact me!</h2>*/}
+                    <h2>Interested?</h2>
+                    <h2>Check my projects!</h2>
                 {/*    <img src={Me}/>*/}
-                    <button>Contact Me (this button still doesn't work!)</button>
+                {/*    <button>Contact Me (this button still doesn't work!)</button>*/}
                 </div>
             </div>
         )

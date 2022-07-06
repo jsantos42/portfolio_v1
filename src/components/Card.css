@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     text-align: center;
     /*border: 1px solid white;*/
@@ -12,73 +12,39 @@
     row-gap: 1rem;
 }
 
-.card h2 {
-    font-size: 2rem;
-    font-weight: 600;
+.cardContent {
+    min-width: 280px;
+    max-width: 500px;
 }
 
-.cardContent {
-    font-size: 1.4rem;
-    padding: 0 1rem;
+.cardContent img {
+    width: 100%;
+    box-shadow: 0px 0px 25px 2px black;
+}
+
+.card h2 {
+    font-weight: 600;
 }
 
 .cardText p {
     margin: 0.7rem 0;
 }
 
-.cardLinks {
-    align-self: center;
-}
-
-.cardContent img {
-    box-shadow: 0px 0px 25px 2px black;
-}
-
-@media only screen and (max-width: 470px) {
-
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .cardContent {
-        min-width: 280px;
-        max-width: 350px;
-    }
-
-    .cardContent img {
-        width: 100%;
+        min-width: calc(280px - 2rem);
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .cardContent img {
-        width: 590px;
-}}
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {*/
+/*    .cardContent {*/
+/*        min-width: 280px;*/
+/*        max-width: 350px;*/
+/*    }*/
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .cardContent img {
-        width: 730px;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .card img {
-        width: 800px;
-}}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .cardContent {
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: nowrap;
-        column-gap: 3rem;
-    }
-
-    .card h2 {
-        width: 100%;
-    }
-}
+/*    .cardContent img {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/

@@ -1,38 +1,16 @@
-import {Component} from "react";
-import Card from "../components/Card";
-import {projects} from "../data";
+import styled from "styled-components";
 
-class CardList extends Component {
-    constructor() {
-        super();
-        this.CardArray = projects.map(i =>
-            <Card
-                title={i.title}
-                static={i.static}
-                gif={i.gif}
-                brief={i.brief}
-                languages={i.languages}
-                keywords={i.keywords}
-                repo={i.repo}
-                live={i.live}
-                description={i.description}
-            />);
-        this.CardListStyle = {
-            display: 'grid',
-            gridTemplateColumns: '1fr',
-            gap: '7rem',
-            padding: '4rem 0',
-            minHeight: 'calc(100vh - 6rem - 5.5rem)'
-        }
-    }
-
-    render() {
-        return (
-            <div style={this.CardListStyle}>
-                {this.CardArray}
-            </div>
-        );
-    }
-}
+const CardList = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 5rem;
+  padding: 4rem 1rem;
+  min-height: calc(100vh - 6rem - 5.5rem);
+  
+  @media only screen and (max-width: 470px) {
+    grid-template-columns: 1fr;
+    min-height: calc(100vh - 3rem - 5.5rem);
+  }
+`
 
 export default CardList;

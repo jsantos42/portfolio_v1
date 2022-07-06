@@ -11,8 +11,15 @@
     gap: 2rem 8rem;
     min-width: 280px;
     max-width: 100%;
-    min-height: calc(100vh - 6rem - 5.5rem);
+    min-height: calc(100vh - 5rem - 5.5rem);
 }
+
+@media only screen and (max-width: 470px) {
+    .home {
+        min-height: calc(100vh - 3rem - 5.5rem);
+    }
+}
+
 
 .home h1  {
     width: 100%;
@@ -48,7 +55,7 @@
 }
 
 .more {
-    /*flex-direction: column;*/
+    flex-direction: column;
     /*background: #1f5ca4;*/
     gap: 1.5rem;
     padding: 1.5rem;
@@ -64,6 +71,9 @@
     /*padding: 20px;*/
 }
 
+.more h2 {
+    margin: 0;
+}
 
 /*@media only screen and (max-width: 470px) {*/
 
