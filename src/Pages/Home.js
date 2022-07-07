@@ -12,12 +12,12 @@ class Home extends Component {
     componentDidMount() {
         window.scroll(0,0);
     }
-    
+
     render() {
         return (
             <div className='home'>
                 <h1>Junior Software Engineer</h1>
-                <img src={Doctor}/>
+                {/*<img src={Doctor}/>*/}
                 <img src={Programmer}/>
                 <div className='about'>
                     <h2>About Me:</h2>

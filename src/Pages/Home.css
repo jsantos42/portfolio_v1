@@ -29,9 +29,9 @@
     width: 278px;
 }
 
-.home img:first-of-type {
-    opacity: 40%;
-}
+/*.home img:first-of-type {*/
+    /*opacity: 40%;*/
+/*}*/
 
 .about {
     flex-direction: column;

@@ -1,3 +1,4 @@
+import portfolio_gif from './res/portfolio.gif'
 import fast_food_gif from './res/fast_food.gif'
 import robots_gif from './res/robots.gif'
 import shopping_gif from './res/shopping.gif'
@@ -15,7 +16,7 @@ export const projects = [
     {
         title: "Portfolio",
         static: "",
-        gif: "",
+        gif: portfolio_gif,
         brief: "Website showcasing my main projects",
         languages: ["React.js", "JavaScript"],
         keywords: ["front end", "website", "portfolio"],
@@ -57,7 +58,7 @@ export const projects = [
         description: ""
     },
     {
-        title: "minishell",
+        title: "Minishell",
         static: "",
         gif: minishell_gif,
         brief: "A Unix shell, implemented with an Abstract Syntax Tree",
@@ -68,7 +69,7 @@ export const projects = [
         description: ""
     },
     {
-        title: "cub3D",
+        title: "Cub3D",
         static: "",
         gif: cub3d_gif,
         brief: "Simple 3D maze using raycasting",
