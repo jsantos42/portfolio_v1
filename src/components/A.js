@@ -1,10 +1,6 @@
 import {Component} from "react";
 
 class A extends Component {
-    constructor({href}) {
-        super({href});
-    }
-
     render() {
         return <a
             href={this.props.href}

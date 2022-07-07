@@ -9,6 +9,10 @@ import Me from "../res/me.png"
 const {name, currentRole, newRole} = personalData;
 
 class Home extends Component {
+    componentDidMount() {
+        window.scroll(0,0);
+    }
+    
     render() {
         return (
             <div className='home'>
