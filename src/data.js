@@ -6,6 +6,7 @@ import minishell_gif from './res/minishell.gif'
 import philo_gif from './res/philo.gif'
 import cub3d_gif from './res/cub3d.gif'
 import so_long_gif from './res/so_long.gif'
+import notepad_gif from './res/notepad.gif'
 
 export const personalData = {
     name: 'joao_almeida_santos',
@@ -32,6 +33,17 @@ export const projects = [
         languages: ["Python", "R"],
         keywords: ["datascience", "healthcare", "jupyter notebook"],
         repo: "https://github.com/jsantos42/fast_food_and_schools_in_Portugal",
+        live: "",
+        description: ""
+    },
+    {
+        title: "Notepad",
+        static: "",
+        gif: notepad_gif,
+        brief: "Simple Qt app",
+        languages: ["C++", "Qt"],
+        keywords: ["front end", "desktop", "app"],
+        repo: "https://github.com/jsantos42/Qt/tree/main/Notepad",
         live: "",
         description: ""
     },
