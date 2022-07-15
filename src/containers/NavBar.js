@@ -4,6 +4,7 @@ import Title from "../components/Title";
 import NavList from "../components/NavList";
 import {personalData} from "../data";
 import "./NavBar.css"
+import ThemeSwitch from "../components/ThemeSwitch";
 
 class NavBar extends Component {
     constructor() {
@@ -46,6 +47,7 @@ class NavBar extends Component {
         return (
             <nav>
                 <Title>{personalData.name}</Title>
+                {/*<ThemeSwitch/>*/}
                 <Hamburger action={this.toggleOpen} mobile={this.state.mobile}/>
                 <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open}>
                     {/* download button */}
