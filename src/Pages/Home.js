@@ -4,6 +4,7 @@ import {personalData} from "../data";
 import Programmer from "../res/undraw_shared_workspace_re_3gsu.png"
 import Doctor from "../res/undraw_doctor_kw5l.png"
 import Highlight from "../components/Highlight";
+import A from '../components/A'
 import Me from "../res/me.png"
 
 const {name, currentRole, newRole} = personalData;
@@ -31,7 +32,7 @@ class Home extends Component {
                         <li>for now, willing to work on <Highlight>any</Highlight> field</li>
                         <li>highly <Highlight>curious</Highlight> and <Highlight>motivated</Highlight> individual</li>
                         <li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>
-                        <li>worship <Highlight>Sir Jony Ive</Highlight></li>
+                        <li>worship <Highlight><A href={'https://en.wikipedia.org/wiki/Jony_Ive'}>Sir Jony Ive</A></Highlight></li>
                     </ul>
                 </div>
                 <div className='more'>
