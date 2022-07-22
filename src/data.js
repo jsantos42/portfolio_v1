@@ -8,6 +8,7 @@ import cub3d_gif from './res/cub3d.gif'
 import so_long_gif from './res/so_long.gif'
 import notepad_gif from './res/notepad.gif'
 import pokemon_gif from './res/pokemon.gif'
+import face_detector_gif from './res/face_detector.gif'
 
 export const personalData = {
     name: 'joao_almeida_santos',
@@ -24,6 +25,17 @@ export const projects = [
         keywords: ["front end", "website", "portfolio"],
         repo: "https://github.com/jsantos42/portfolio",
         live: "https://jsantos42.github.io/portfolio/",
+        description: ""
+    },
+    {
+        title: "Face Detector",
+        static: "",
+        gif: face_detector_gif,
+        brief: "Website with login/register forms that uses the Clarify API",
+        languages: ["React.js", "JavaScript"],
+        keywords: ["front end", "API", "AJAX"],
+        repo: "https://github.com/jsantos42/WebDev/tree/master/17_Face_Recognition",
+        live: "",
         description: ""
     },
     {
