@@ -47,7 +47,7 @@ class NavBar extends Component {
         return (
             <nav>
                 <Title>{personalData.name}</Title>
-                {/*<ThemeSwitch/>*/}
+                <ThemeSwitch/>
                 <Hamburger action={this.toggleOpen} mobile={this.state.mobile}/>
                 <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open}>
                     {/* download button */}

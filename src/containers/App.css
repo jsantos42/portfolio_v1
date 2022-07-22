@@ -10,8 +10,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #041E2C;
-  color: #d8d4cf;
 }
 
 #root {
@@ -25,10 +23,6 @@ code {
 
 h1, h2 {
   text-align: center;
-}
-
-a {
-  color: #3391ff;
 }
 
 @media only screen and (max-width: 470px) {

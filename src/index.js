@@ -1,28 +1,9 @@
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Body from "./containers/Body";
-
-import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from "./Pages/Home";
-import Projects from "./Pages/Projects";
-import NotFound from "./components/NotFound";
-import NavBar from "./containers/NavBar";
-import Footer from "./containers/Footer";
-
+import App from './containers/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
-        <Body>
-            <NavBar/>
-            <Routes>
-                <Route path="/portfolio" element={<Home/>}/>
-                <Route path="/portfolio/projects" element={<Projects/>}/>
-                <Route path="*" element={<NotFound/>}/>
-            </Routes>
-            <Footer/>
-        </Body>
-    </BrowserRouter>
+    <App/>
 );
 
 // If you want to start measuring performance in your app, pass a function
