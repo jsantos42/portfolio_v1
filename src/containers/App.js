@@ -10,19 +10,29 @@ import Footer from "./Footer";
 import {darkTheme, lightTheme} from "../themes";
 import './App.css';
 import GlobalStyle from "./GlobalStyle";
-
-// import {darkTheme} from "../themes";
+import moon from '../res/moon.png'
+import sun from '../res/sun.png'
 
 class App extends Component {
     constructor() {
         super();
         this.state = {
-            theme: darkTheme,
+            theme: lightTheme,
+            themeSwitcher: moon,
         }
     }
 
     switchTheme = () => {
-
+        if (this.state.theme === lightTheme)
+            this.setState({
+                theme: darkTheme,
+                themeSwitcher: sun,
+            });
+        else
+            this.setState({
+                theme: lightTheme,
+                themeSwitcher: moon,
+            });
     }
 
     render() {
@@ -31,7 +41,7 @@ class App extends Component {
                 <GlobalStyle/>
                     <BrowserRouter>
                         <Body>
-                            <NavBar onSwitchTheme={this.switchTheme}/>
+                            <NavBar theme={this.state.theme} themeSwitcher={this.state.themeSwitcher} onSwitchTheme={this.switchTheme}/>
                             <Routes>
                                 <Route path="/portfolio" element={<Home/>}/>
                                 <Route path="/portfolio/projects" element={<Projects/>}/>
