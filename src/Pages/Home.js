@@ -17,7 +17,7 @@ class Home extends Component {
     render() {
         return (
             <div className='home'>
-                <h1>Junior Software Engineer</h1>
+                <h1>Junior Frontend Engineer</h1>
                 {/*<img src={Doctor}/>*/}
                 <img src={Programmer}/>
                 <div className='about'>

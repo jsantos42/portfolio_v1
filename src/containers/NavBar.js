@@ -4,9 +4,6 @@ import Title from "../components/Title";
 import NavList from "../components/NavList";
 import {personalData} from "../data";
 import "./NavBar.css"
-import themeSwitcher from '../res/themeSwitcher.png'
-import themeSwitcher2 from '../res/themeSwitcher2.png'
-import ThemeSwitch from "../components/ThemeSwitcher";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 
 
@@ -52,8 +49,8 @@ class NavBar extends Component {
             <nav style={{background: this.props.theme.body.background}}>
                 <Title>{personalData.name}</Title>
                 <ThemeSwitcher src={this.props.themeSwitcher} onClick={this.props.onSwitchTheme}/>
-                <Hamburger action={this.toggleOpen} mobile={this.state.mobile}/>
-                <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open}>
+                <Hamburger action={this.toggleOpen} mobile={this.state.mobile} theme={this.props.theme}/>
+                <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open} theme={this.props.theme}>
                     {/* download button */}
                 </NavList>
             </nav>

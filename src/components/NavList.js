@@ -1,11 +1,13 @@
 import {Link, NavLink} from "react-router-dom";
 import cv from "../res/CV.pdf";
 
-const NavList = ({action, mobile, open}) => {
+const NavList = ({action, mobile, open, theme}) => {
     return (
         // this className attribution needs refactoring and uniformization
         <ul onClick={action}
-            className={`${mobile ? "mobile-nav" : "desktop-nav"} ${open ? "" : "closed"}`}>
+            className={`${mobile ? "mobile-nav" : "desktop-nav"} ${open ? "" : "closed"}`}
+            style={{background: theme.body.background}}
+        >
             <NavLink className={({isActive}) => isActive ? "active" : "inactive"} to={"/portfolio"} end>
                 <li>Home</li>
             </NavLink>

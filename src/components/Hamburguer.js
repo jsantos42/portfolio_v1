@@ -1,11 +1,12 @@
 import styled from "styled-components"
-import burgerMenu from "../res/menu_white.png"
+import burgerMenuWhite from "../res/menu_white.png"
+import burgerMenuBlack from "../res/menu_black.png"
 
 const StyledImg = styled.img`
   width: 2rem;
   padding: 2rem;
   &:hover {
-    background: #005684;
+    opacity: 70%;
   }
 
   @media only screen and (max-width: 470px) {
@@ -14,10 +15,12 @@ const StyledImg = styled.img`
   }
 `
 
-const Hamburger = ({action, mobile}) => {
+const Hamburger = ({action, mobile, theme}) => {
     if (mobile) {
         return (
-            <StyledImg src={burgerMenu} alt="burger menu" onClick={action}/>
+            <StyledImg src={theme.name === 'lightTheme' ? burgerMenuBlack : burgerMenuWhite}
+                       alt="burger menu"
+                       onClick={action}/>
         )
     }
 }

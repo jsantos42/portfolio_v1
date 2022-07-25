@@ -30,10 +30,14 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0;
-    background: #041E2C;
+    /*background: #041E2C;*/
     box-shadow: 0 0 10px  black;
     font-weight: 800;
     list-style: none;
+}
+
+.mobile-nav li {
+    margin-top: 1rem;
 }
 
 @media only screen and (max-width: 470px) {
@@ -42,13 +46,17 @@ nav {
     }
 }
 
-
 .mobile-nav.closed {
     display: none;
 }
 
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
 nav li {
-    padding: 0.9rem 1.5rem;
+    padding: 0.4rem 1.5rem;
 }
 
 #download {
@@ -56,16 +64,28 @@ nav li {
     box-shadow: -2px 2px 3px  black;
     border-radius: 5px ;
     padding: 0.9rem;
+    color: #ffffff;
 }
 
 nav a {
-    text-decoration: none;
-    color: #d8d4cf;
+    /*text-decoration: none;*/
 }
 
 .inactive {
+    border: 2px solid rgba(0,0,0,0);
     /*color: white;*/
 }
 .active {
-    color: #FFBE70;
+    /*color: #3391ff;*/
+    font-weight: 800;
+    border-width: 2px;
+    border-style: solid;
+    border-image:
+            linear-gradient(
+                    to right,
+                    rgba(0,0,0,0) 10%,
+                    #3391ff 40%,
+                    #3391ff 60%,
+                    rgba(0,0,0,0) 90%
+            ) 0 0 100% 0; /* this is the side allocation */
 }

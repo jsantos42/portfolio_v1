@@ -17,13 +17,13 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            theme: lightTheme,
-            themeSwitcher: moon,
+            theme: darkTheme,
+            themeSwitcher: sun,
         }
     }
 
     switchTheme = () => {
-        if (this.state.theme === lightTheme)
+        if (this.state.theme.name === 'lightTheme')
             this.setState({
                 theme: darkTheme,
                 themeSwitcher: sun,
