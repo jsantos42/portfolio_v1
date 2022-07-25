@@ -23,6 +23,8 @@
 
 .home h1  {
     width: 100%;
+    font-weight: 200;
+    margin: 4rem 0 0 0;
 }
 
 .home img {

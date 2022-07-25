@@ -11,7 +11,7 @@ import pokemon_gif from './res/pokemon.gif'
 import face_detector_gif from './res/face_detector.gif'
 
 export const personalData = {
-    name: 'joao_almeida_santos',
+    name: 'joaoAlmeidaSantos',
     currentRole: 'Software Engineer',
     newRole: 'Front-End Developer'
 }

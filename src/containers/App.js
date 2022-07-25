@@ -23,7 +23,7 @@ class App extends Component {
     }
 
     switchTheme = () => {
-        if (this.state.theme.name === 'lightTheme')
+    if (this.state.theme.name === 'lightTheme')
             this.setState({
                 theme: darkTheme,
                 themeSwitcher: sun,
