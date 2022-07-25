@@ -6,6 +6,7 @@ import Doctor from "../res/undraw_doctor_kw5l.png"
 import Highlight from "../components/Highlight";
 import A from '../components/A'
 import Me from "../res/me.png"
+import {Link} from "react-router-dom";
 
 const {name, currentRole, newRole} = personalData;
 
@@ -37,7 +38,7 @@ class Home extends Component {
                 </div>
                 <div className='more'>
                     <h2>Interested?</h2>
-                    <h2>Check my projects!</h2>
+                    <h2>Check my <Link to={"/portfolio/projects"}>projects</Link>!</h2>
                 {/*    <img src={Me}/>*/}
                 {/*    <button>Contact Me (this button still doesn't work!)</button>*/}
                 </div>
