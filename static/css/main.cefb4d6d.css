@@ -1,0 +1,24 @@
+@font-face{font-family:CONFORTA;font-style:normal;font-weight:400;src:local("CONFORTA"),url(/portfolio/static/media/Comfortaa-Bold.059cc3e0c5d00a88354f.ttf)}nav{align-items:center;display:flex;flex-direction:row;justify-content:flex-end;margin:0;position:-webkit-sticky;position:sticky;top:0;width:100%;z-index:1}.desktop-nav{flex-direction:row;margin:.3rem .3rem .3rem 1rem}.desktop-nav,.mobile-nav{display:flex;flex-wrap:wrap;font-weight:800;list-style:none;padding:0}.mobile-nav{align-items:center;box-shadow:0 0 10px #000;flex-direction:column;margin:0;position:absolute;right:0;top:6rem}.mobile-nav li{margin-top:1rem}@media only screen and (max-width:470px){.mobile-nav{top:3rem}}.mobile-nav.closed{display:none}nav ul{align-items:center;display:flex}nav li{padding:.4rem 1.5rem}#download{background:#005684;border-radius:5px;box-shadow:-2px 2px 3px #000;color:#fff;padding:.9rem}.inactive{border:2px solid transparent}.active{border-image:linear-gradient(90deg,transparent 10%,#3391ff 40%,#3391ff 60%,transparent 90%) 0 0 100% 0;border-style:solid;border-width:2px;font-weight:800}.about,.home,.more{align-content:center;align-items:center;display:flex;justify-content:center}.home{flex-direction:row;flex-wrap:wrap;gap:2rem 8rem;max-width:100%;min-height:calc(100vh - 9.5rem);min-width:280px}@media only screen and (max-width:470px){.home{min-height:calc(100vh - 8.5rem)}}.home h1{font-weight:200;margin:4rem 0 0;width:100%}.home img{width:278px}.about{flex-direction:column;padding:2rem}.about h2{align-self:flex-start;font-weight:200;padding:0}.about ul{font-size:1.1rem;margin:0 0 2rem;padding-left:1rem}.about li{padding:.3rem}.more{flex-direction:column;gap:1.5rem;margin:0 0 2rem;padding:1.5rem;width:100%}.more img{align-self:flex-end;justify-self:flex-end;width:100px}.more h2{font-weight:200;margin:0}.home a{text-decoration:underline}
+
+/*!* Extra small devices (phones, 600px and down) *!*/
+
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*        !*flex-direction: row;*!*/
+/*        !*align-items: center;*!*/
+/*        !*flex-wrap: nowrap;*!*/
+/*        !*column-gap: 3em;*!*/
+
+/*    !*.card h2 {*!*/
+/*    !*    width: 100%;*!*/
+/*    !*}*!*/.card,.cardContent,.cardText{align-items:center;display:flex;flex-direction:column;flex-wrap:wrap;text-align:center}.card,.cardContent{row-gap:1rem}.cardContent{max-width:500px;min-width:280px}.cardContent img{box-shadow:0 0 25px 2px #000;width:100%}.card h2{font-weight:600}.cardText p{margin:.7rem 0}@media only screen and (max-width:600px){.cardContent{min-width:calc(280px - 2rem)}}.card a{color:#3391ff}.NotFound{align-items:center;display:flex;flex-direction:column;height:100vh;justify-content:center}.NotFound p{font-size:2rem;font-weight:500}footer{align-items:center;background:#005684;color:#fff;display:flex;flex-direction:column;flex-wrap:wrap;font-weight:800;gap:1rem;justify-content:center;list-style:none;margin:auto 0 0;padding:1rem 0;width:100%}footer img{height:1.5rem}footer p{margin:0}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}h1,h2{text-align:center}
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*# sourceMappingURL=main.cefb4d6d.css.map*/
