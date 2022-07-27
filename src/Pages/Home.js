@@ -12,13 +12,13 @@ const {name, currentRole, newRole} = personalData;
 
 class Home extends Component {
     componentDidMount() {
-        window.scroll(0,0);
+        window.scroll(0, 0);
     }
 
     render() {
         return (
             <div className='home'>
-                <h1>Junior Frontend Engineer</h1>
+                <h1>{personalData.role}</h1>
                 {/*<img src={Doctor}/>*/}
                 <img src={Programmer}/>
                 <div className='about'>
@@ -28,19 +28,24 @@ class Home extends Component {
                         <li><Highlight>6+ years</Highlight> of clinical practice</li>
                         <li>worked in <Highlight>2 countries</Highlight> (PT and FR)</li>
                         <li>frustrated by the <Highlight>poor UX</Highlight> of healthcare software</li>
-                        <li>decided to <Highlight>change</Highlight> that, switched to programming</li>
-                        <li>long term <Highlight>goal</Highlight>: help rebuilding our NHS software</li>
-                        <li>for now, willing to work on <Highlight>any</Highlight> field</li>
+                        <li>did a <Highlight>datascience</Highlight> project involving <Highlight>GIS</Highlight></li>
+                        <li>thrilled, enrolled at <Highlight>42</Highlight> to become a programmer</li>
                         <li>highly <Highlight>curious</Highlight> and <Highlight>motivated</Highlight> individual</li>
                         <li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>
-                        <li>worship <Highlight><A href={'https://en.wikipedia.org/wiki/Jony_Ive'}>Sir Jony Ive</A></Highlight></li>
+                        <li>worship <A href={'https://en.wikipedia.org/wiki/Jony_Ive'}><Highlight>Sir Jony
+                            Ive</Highlight></A></li>
+                    </ul>
+                    <h2>Currently:</h2>
+                    <ul>
+                        <li>finishing a FullStack course on Udemy</li>
+                        <li>doing some <Highlight>front-end</Highlight> and <Highlight>datascience</Highlight> projects</li>
                     </ul>
                 </div>
                 <div className='more'>
                     <h2>Interested?</h2>
-                    <h2>Check my <Link to={"/portfolio/projects"}>projects</Link>!</h2>
-                {/*    <img src={Me}/>*/}
-                {/*    <button>Contact Me (this button still doesn't work!)</button>*/}
+                    <h2>Check my <Link style={{textDecoration: 'underline'}} to={"/portfolio/projects"}>projects</Link>!</h2>
+                    {/*    <img src={Me}/>*/}
+                    {/*    <button>Contact Me (this button still doesn't work!)</button>*/}
                 </div>
             </div>
         )

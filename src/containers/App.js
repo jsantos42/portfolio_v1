@@ -17,8 +17,8 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            theme: darkTheme,
-            themeSwitcher: sun,
+            theme: lightTheme,
+            themeSwitcher: moon,
         }
     }
 

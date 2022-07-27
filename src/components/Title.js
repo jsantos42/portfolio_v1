@@ -8,13 +8,12 @@ const Title = styled.h1`
   padding: 0 1rem;
   font-size: 1.6rem;
   font-weight: 800;
-  color: #0358b9;
-  text-shadow: 0 0 1px white;
   font-family: 'CONFORTA',sans-serif;
+  color: ${props => props.theme.titleColor};
+  text-shadow: none;
 
   @media only screen and (max-width: 470px) {
     font-size: 1rem;
   }
 `
-
 export default Title;

@@ -12,8 +12,7 @@ import face_detector_gif from './res/face_detector.gif'
 
 export const personalData = {
     name: 'joaoAlmeidaSantos',
-    currentRole: 'Software Engineer',
-    newRole: 'Front-End Developer'
+    role: 'Junior Developer',
 }
 export const projects = [
     {
