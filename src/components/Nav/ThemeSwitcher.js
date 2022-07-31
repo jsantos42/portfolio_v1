@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledImg = styled.img`
   width: 1.5rem;
+
   &:hover {
     opacity: 70%;
   }
@@ -12,9 +13,9 @@ const StyledImg = styled.img`
 `
 
 const ThemeSwitcher = ({src, onClick}) => {
-        return (
-            <StyledImg src={src} alt="theme switcher" onClick={onClick}/>
-        )
+    return (
+        <StyledImg src={src} alt="theme switcher" onClick={onClick}/>
+    )
 }
 
 export default ThemeSwitcher;

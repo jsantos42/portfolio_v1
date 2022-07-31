@@ -1,5 +1,5 @@
 import {Link, NavLink} from "react-router-dom";
-import cv from "../res/CV.pdf";
+import cv from "../../res/CV.pdf";
 
 const NavList = ({action, mobile, open, theme}) => {
     return (
@@ -20,7 +20,6 @@ const NavList = ({action, mobile, open, theme}) => {
                 <li id={"download"}>Download Resume</li>
             </Link>
         </ul>
-
     )
 }
 

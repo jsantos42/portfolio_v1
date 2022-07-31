@@ -1,59 +1,49 @@
-import {Component} from "react";
+import {useState} from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {ThemeProvider} from "styled-components";
-import Body from "./Body";
-import NavBar from "./NavBar";
-import Home from "../Pages/Home";
-import Projects from "../Pages/Projects";
-import NotFound from "../components/NotFound";
+import Nav from "./Nav";
+import Home from "../pages/Home";
+import Projects from "../pages/Projects";
+import NotFound from "../pages/NotFound";
 import Footer from "./Footer";
 import {darkTheme, lightTheme} from "../themes";
-import './App.css';
 import GlobalStyle from "./GlobalStyle";
-import moon from '../res/moon.png'
-import sun from '../res/sun.png'
+import moon from '../res/themeSwitches/moon.png'
+import sun from '../res/themeSwitches/sun.png'
 
-class App extends Component {
-    constructor() {
-        super();
-        this.state = {
-            theme: lightTheme,
-            themeSwitcher: moon,
-        }
-    }
+const App = () => {
+    const [themeData, setThemeData] = useState({
+        theme: lightTheme,
+        themeSwitcher: moon,
+    });
 
-    switchTheme = () => {
-    if (this.state.theme.name === 'lightTheme')
-            this.setState({
+    const switchTheme = () => {
+        if (themeData.theme.name === 'light')
+            setThemeData({
                 theme: darkTheme,
                 themeSwitcher: sun,
             });
         else
-            this.setState({
+            setThemeData({
                 theme: lightTheme,
                 themeSwitcher: moon,
             });
     }
 
-    render() {
-        return (
-            <ThemeProvider theme={this.state.theme}>
-                <GlobalStyle/>
-                    <BrowserRouter>
-                        <Body>
-                            <NavBar theme={this.state.theme} themeSwitcher={this.state.themeSwitcher} onSwitchTheme={this.switchTheme}/>
-                            <Routes>
-                                <Route path="/portfolio" element={<Home/>}/>
-                                <Route path="/portfolio/projects" element={<Projects/>}/>
-                                <Route path="*" element={<NotFound/>}/>
-                            </Routes>
-                            <Footer/>
-                        </Body>
-                    </BrowserRouter>
-            </ThemeProvider>
-        )
-    }
-
+    return (
+        <ThemeProvider theme={themeData.theme}>
+            <GlobalStyle/>
+            <BrowserRouter>
+                <Nav themeData={themeData} onSwitchTheme={switchTheme}/>
+                <Routes>
+                    <Route path="/portfolio" element={<Home/>}/>
+                    <Route path="/portfolio/projects" element={<Projects/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                </Routes>
+                <Footer/>
+            </BrowserRouter>
+        </ThemeProvider>
+    )
 }
 
 export default App;

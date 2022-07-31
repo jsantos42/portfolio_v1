@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import burgerMenuWhite from "../res/menu_white.png"
-import burgerMenuBlack from "../res/menu_black.png"
+import burgerMenuWhite from "../../res/burgerMenu/burgerMenuWhite.png"
+import burgerMenuBlack from "../../res/burgerMenu/burgerMenuBlack.png"
 
 const StyledImg = styled.img`
   width: 2rem;
@@ -18,7 +18,7 @@ const StyledImg = styled.img`
 const Hamburger = ({action, mobile, theme}) => {
     if (mobile) {
         return (
-            <StyledImg src={theme.name === 'lightTheme' ? burgerMenuBlack : burgerMenuWhite}
+            <StyledImg src={theme.name === 'light' ? burgerMenuBlack : burgerMenuWhite}
                        alt="burger menu"
                        onClick={action}/>
         )

@@ -1,19 +1,24 @@
-import portfolio_gif from './res/portfolio.gif'
-import fast_food_gif from './res/fast_food.gif'
-import robots_gif from './res/robots.gif'
-import shopping_gif from './res/shopping.gif'
-import minishell_gif from './res/minishell.gif'
-import philo_gif from './res/philo.gif'
-import cub3d_gif from './res/cub3d.gif'
-import so_long_gif from './res/so_long.gif'
-import notepad_gif from './res/notepad.gif'
-import pokemon_gif from './res/pokemon.gif'
-import face_detector_gif from './res/face_detector.gif'
+import portfolio_gif from './res/projects/portfolio.gif'
+import fast_food_gif from './res/projects/fast_food.gif'
+//import robots_gif from './res/projects/robots.gif'
+import shopping_gif from './res/projects/shopping.gif'
+import minishell_gif from './res/projects/minishell.gif'
+import philo_gif from './res/projects/philo.gif'
+import cub3d_gif from './res/projects/cub3d.gif'
+import so_long_gif from './res/projects/so_long.gif'
+import notepad_gif from './res/projects/notepad.gif'
+import pokemon_gif from './res/projects/pokemon.gif'
+import face_detector_gif from './res/projects/face_detector.gif'
 
 export const personalData = {
-    name: 'joaoAlmeidaSantos',
+    title: 'joaoAlmeidaSantos',
+    name: 'João Almeida Santos',
     role: 'Junior Developer',
+    email: 'j-almeidasantos@hotmail.com',
+    linkedIn: 'https://www.linkedin.com/in/j-almeidasantos/',
+    gitHub: 'https://github.com/jsantos42',
 }
+
 export const projects = [
     {
         title: "Portfolio",
@@ -31,7 +36,7 @@ export const projects = [
         static: "",
         gif: face_detector_gif,
         brief: "Website with login/register forms that uses the Clarify API",
-        languages: ["React.js", "JavaScript"],
+        languages: ["React.js", "Styled-Components", "Node.js", "Express.js", "JavaScript"],
         keywords: ["front end", "API", "AJAX"],
         repo: "https://github.com/jsantos42/WebDev/tree/master/17_Face_Recognition",
         live: "",
