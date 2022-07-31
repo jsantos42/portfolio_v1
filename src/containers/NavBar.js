@@ -5,6 +5,7 @@ import NavList from "../components/NavList";
 import {personalData} from "../data";
 import "./NavBar.css"
 import ThemeSwitcher from "../components/ThemeSwitcher";
+import {Link} from "react-router-dom";
 
 
 class NavBar extends Component {
@@ -47,7 +48,7 @@ class NavBar extends Component {
     render() {
         return (
             <nav style={{background: this.props.theme.body.background}}>
-                <Title>{personalData.name}</Title>
+                <Link to={"/portfolio"}><Title>{personalData.name}</Title></Link>
                 <ThemeSwitcher src={this.props.themeSwitcher} onClick={this.props.onSwitchTheme}/>
                 <Hamburger action={this.toggleOpen} mobile={this.state.mobile} theme={this.props.theme}/>
                 <NavList action={this.toggleOpen} mobile={this.state.mobile} open={this.state.open} theme={this.props.theme}>

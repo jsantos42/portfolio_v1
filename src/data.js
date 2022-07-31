@@ -20,7 +20,7 @@ export const projects = [
         static: "",
         gif: portfolio_gif,
         brief: "Website showcasing my main projects",
-        languages: ["React.js", "JavaScript"],
+        languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "website", "portfolio"],
         repo: "https://github.com/jsantos42/portfolio",
         live: "https://jsantos42.github.io/portfolio/",
