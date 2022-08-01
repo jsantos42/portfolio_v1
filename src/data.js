@@ -10,6 +10,11 @@ import notepad_gif from './res/projects/notepad.gif'
 import pokemon_gif from './res/projects/pokemon.gif'
 import face_detector_gif from './res/projects/face_detector.gif'
 
+export const pages = {
+    home: '/',
+    projects: '/projects',
+}
+
 export const personalData = {
     title: 'joaoAlmeidaSantos',
     name: 'João Almeida Santos',

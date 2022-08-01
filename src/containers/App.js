@@ -7,6 +7,7 @@ import Projects from "../pages/Projects";
 import NotFound from "../pages/NotFound";
 import Footer from "./Footer";
 import {darkTheme, lightTheme} from "../themes";
+import {pages} from "../data";
 import GlobalStyle from "./GlobalStyle";
 import moon from '../res/themeSwitches/moon.png'
 import sun from '../res/themeSwitches/sun.png'
@@ -36,8 +37,8 @@ const App = () => {
             <BrowserRouter>
                 <Nav themeData={themeData} onSwitchTheme={switchTheme}/>
                 <Routes>
-                    <Route path="/portfolio" element={<Home/>}/>
-                    <Route path="/portfolio/projects" element={<Projects/>}/>
+                    <Route path={pages.home} element={<Home/>}/>
+                    <Route path={pages.projects} element={<Projects/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
                 <Footer/>

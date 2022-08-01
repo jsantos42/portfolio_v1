@@ -1,5 +1,6 @@
 import {Link, NavLink} from "react-router-dom";
 import cv from "../../res/CV.pdf";
+import {pages} from "../../data";
 
 const NavList = ({action, mobile, open, theme}) => {
     return (
@@ -8,11 +9,11 @@ const NavList = ({action, mobile, open, theme}) => {
             className={`${mobile ? "mobile-nav" : "desktop-nav"} ${open ? "" : "closed"}`}
             style={{background: theme.body.background}}
         >
-            <NavLink className={({isActive}) => isActive ? "active" : "inactive"} to={"/portfolio"} end>
+            <NavLink className={({isActive}) => isActive ? "active" : "inactive"} to={pages.home} end>
                 <li>Home</li>
             </NavLink>
             <NavLink className={({isActive}) => isActive ? "active" : "inactive"}
-                     to={"/portfolio/projects"}>
+                     to={pages.projects}>
                 <li>Projects</li>
             </NavLink>
             {/*this Button needs to become a separate component*/}

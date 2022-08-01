@@ -4,7 +4,7 @@ import Title from "../components/Nav/Title";
 import Hamburger from "../components/Nav/Hamburguer";
 import NavList from "../components/Nav/NavList";
 import ThemeSwitcher from "../components/Nav/ThemeSwitcher";
-import {personalData} from "../data";
+import {pages, personalData} from "../data";
 import styled from "styled-components";
 
 //==============================================================================
@@ -130,7 +130,7 @@ const Nav = ({themeData, onSwitchTheme}) => {
 
     return (
         <StyledNav>
-            <Title><Link to={"/portfolio"} style={{color: themeData.theme.titleColor}}>
+            <Title><Link to={pages.home} style={{color: themeData.theme.titleColor}}>
                 {personalData.title}
             </Link></Title>
             <ThemeSwitcher src={themeData.themeSwitcher} onClick={onSwitchTheme}/>

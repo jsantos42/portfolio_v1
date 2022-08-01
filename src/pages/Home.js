@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 import {Link} from "react-router-dom";
-import {personalData} from "../data";
+import {pages, personalData} from "../data";
 import Highlight from "../components/Highlight";
 import A from '../components/A'
 import Programmer from "../res/undraw_shared_workspace_re_3gsu.png"
@@ -129,7 +129,7 @@ const Home = () => {
             </About>
             <More>
                 <h2>Interested?</h2>
-                <h2>Check my <Link style={{textDecoration: 'underline'}} to={"/portfolio/projects"}>projects</Link>!
+                <h2>Check my <Link style={{textDecoration: 'underline'}} to={pages.projects}>projects</Link>!
                 </h2>
                 {/*    <img src={Me}/>*/}
                 {/*    <button>Contact Me (this button still doesn't work!)</button>*/}
