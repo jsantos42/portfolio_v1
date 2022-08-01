@@ -2,10 +2,11 @@ import {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import Title from "../components/Nav/Title";
 import Hamburger from "../components/Nav/Hamburguer";
-import NavList from "../components/Nav/NavList";
+import PagesArray from "../components/Nav/PagesArray";
 import ThemeSwitcher from "../components/Nav/ThemeSwitcher";
 import {pages, personalData} from "../data";
 import styled from "styled-components";
+import cv from "../res/CV.pdf";
 
 //==============================================================================
 // STYLING
@@ -25,6 +26,7 @@ const StyledNav = styled.nav`
   ul {
     display: flex;
     align-items: center;
+    background: ${props => props.theme.body.background};
   }
 
   li {
@@ -102,6 +104,8 @@ const Nav = ({themeData, onSwitchTheme}) => {
     const [mobile, setMobile] = useState(true);
     const [open, setOpen] = useState(false);
     const mobileThreshold = 768;
+    let navClass = mobile ? 'mobile-nav' : 'desktop-nav';
+    navClass += open ? '' : ' closed'; // Here the space between classes is paramount!
 
     function toggleMobile() {
         if (window.innerWidth < mobileThreshold) {
@@ -130,15 +134,20 @@ const Nav = ({themeData, onSwitchTheme}) => {
 
     return (
         <StyledNav>
-            <Title><Link to={pages.home} style={{color: themeData.theme.titleColor}}>
-                {personalData.title}
-            </Link></Title>
+            <Title>
+                <Link to={pages.home.path} style={{color: themeData.theme.titleColor}}>
+                    {personalData.title}
+                </Link>
+            </Title>
             <ThemeSwitcher src={themeData.themeSwitcher} onClick={onSwitchTheme}/>
             <Hamburger action={toggleOpen} mobile={mobile} theme={themeData.theme}/>
-            <NavList action={toggleOpen} mobile={mobile} open={open}
-                     theme={themeData.theme}>
-                {/* download button */}
-            </NavList>
+            <ul onClick={toggleOpen} className={navClass}>
+                <PagesArray/>
+                {/*this should probably be converted to a button or isolated component*/}
+                <Link to={cv} target="_blank" download={"Resume_Joao_Almeida_Santos.pdf"}>
+                    <li id={"download"}>Download Resume</li>
+                </Link>
+            </ul>
         </StyledNav>
     );
 }

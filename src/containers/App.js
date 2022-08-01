@@ -37,8 +37,8 @@ const App = () => {
             <BrowserRouter>
                 <Nav themeData={themeData} onSwitchTheme={switchTheme}/>
                 <Routes>
-                    <Route path={pages.home} element={<Home/>}/>
-                    <Route path={pages.projects} element={<Projects/>}/>
+                    <Route path={pages.home.path} element={<Home/>}/>
+                    <Route path={pages.projects.path} element={<Projects/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
                 <Footer/>

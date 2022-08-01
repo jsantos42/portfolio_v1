@@ -11,8 +11,14 @@ import pokemon_gif from './res/projects/pokemon.gif'
 import face_detector_gif from './res/projects/face_detector.gif'
 
 export const pages = {
-    home: '/',
-    projects: '/projects',
+    home: {
+        name: 'Home',
+        path: '/',
+    },
+    projects: {
+        name: 'Projects',
+        path: '/projects',
+    }
 }
 
 export const personalData = {
