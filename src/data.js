@@ -39,17 +39,17 @@ export const projects = [
         languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "website", "portfolio"],
         repo: "https://github.com/jsantos42/portfolio",
-        live: "https://jsantos42.github.io/portfolio/",
+        live: "https://j-almeidasantos.tech",
         description: ""
     },
     {
         title: "Face Detector",
         static: "",
         gif: face_detector_gif,
-        brief: "Website with login/register forms that uses the Clarify API",
+        brief: "Fullstack project, with API endpoints and login access",
         languages: ["React.js", "Styled-Components", "Node.js", "Express.js", "JavaScript"],
-        keywords: ["front end", "API", "AJAX"],
-        repo: "https://github.com/jsantos42/WebDev/tree/master/17_Face_Recognition",
+        keywords: ["full-stack", "front end", "back end", "API", "AJAX"],
+        repo: "https://github.com/jsantos42/WebDev/tree/master/Face%20Detector%20(fullstack)",
         live: "",
         description: ""
     },
@@ -60,7 +60,7 @@ export const projects = [
         brief: "Searchable list, using AJAX requests and a public API",
         languages: ["React.js", "JavaScript"],
         keywords: ["front end", "API", "AJAX"],
-        repo: "https://github.com/jsantos42/WebDev/tree/master/16_PokemonAPI",
+        repo: "https://github.com/jsantos42/WebDev/tree/master/PokemonAPI",
         live: "",
         description: ""
     },
@@ -104,7 +104,7 @@ export const projects = [
         brief: "My first project in Vanilla JS",
         languages: ["JavaScript" ],
         keywords: ["front end", "website", "app"],
-        repo: "https://github.com/jsantos42/WebDev/tree/master/10%20DOM%20Events%20(shopping%20list)",
+        repo: "https://github.com/jsantos42/WebDev/tree/master/Learning/10%20DOM%20Events%20(shopping%20list)",
         live: "",
         description: ""
     },
