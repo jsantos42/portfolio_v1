@@ -62,6 +62,7 @@ export const About = styled.div`
     font-size: 1.1rem;
     padding-left: 1rem;
     margin: 0 0 2rem 0;
+	align-self: flex-start;
   }
 
   li {
@@ -115,7 +116,7 @@ const Home = () => {
                     <li>worked in <Highlight>2 countries</Highlight> (PT and FR)</li>
                     <li>frustrated by the <Highlight>poor UX</Highlight> of healthcare software</li>
                     <li>did a <Highlight>datascience</Highlight> project involving <Highlight>GIS</Highlight></li>
-                    <li>thrilled, enrolled at <Highlight>42</Highlight> to become a programmer</li>
+                    <li>thrilled, enrolled at <Highlight>42</Highlight> to become a developer</li>
                     <li>highly <Highlight>curious</Highlight> and <Highlight>motivated</Highlight> individual</li>
                     <li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>
                     <li>worship <A href={'https://en.wikipedia.org/wiki/Jony_Ive'}><Highlight>Sir Jony
@@ -123,8 +124,9 @@ const Home = () => {
                 </ul>
                 <h2>Currently:</h2>
                 <ul>
-                    <li>finishing a FullStack course on Udemy</li>
-                    <li>doing some <Highlight>front-end</Highlight> and <Highlight>datascience</Highlight> projects</li>
+                    <li>finishing a <Highlight>FullStack course</Highlight> on Udemy</li>
+					<li>learning <Highlight>Typescript</Highlight></li>
+					<li>doing some <Highlight>front-end</Highlight> projects</li>
                 </ul>
             </About>
             <More>

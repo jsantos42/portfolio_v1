@@ -58,7 +58,7 @@ export const projects = [
         static: "",
         gif: pokemon_gif,
         brief: "Searchable list, using AJAX requests and a public API",
-        languages: ["React.js", "JavaScript"],
+		languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "API", "AJAX"],
         repo: "https://github.com/jsantos42/WebDev/tree/master/PokemonAPI",
         live: "",
