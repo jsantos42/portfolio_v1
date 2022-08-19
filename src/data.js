@@ -49,7 +49,7 @@ export const projects = [
         brief: "Fullstack project, with API endpoints and login access",
         languages: ["React.js", "Node.js", "Express.js", "PostgreSQL", "JavaScript"],
         keywords: ["full-stack", "front end", "back end", "API", "AJAX"],
-        repo: "https://github.com/jsantos42/WebDev/tree/master/Face%20Detector%20(fullstack)",
+        repo: "https://github.com/jsantos42/FaceDetector",
         live: "https://face-detector--frontend.herokuapp.com/",
         description: ""
     },
@@ -60,7 +60,7 @@ export const projects = [
         brief: "Searchable list, using AJAX requests and a public API",
 		languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "API", "AJAX"],
-        repo: "https://github.com/jsantos42/WebDev/tree/master/PokemonAPI",
+        repo: "https://github.com/jsantos42/MovesOfPokemon",
         live: "",
         description: ""
     },
@@ -104,7 +104,7 @@ export const projects = [
         brief: "My first project in Vanilla JS",
         languages: ["JavaScript" ],
         keywords: ["front end", "website", "app"],
-        repo: "https://github.com/jsantos42/WebDev/tree/master/Learning/10%20DOM%20Events%20(shopping%20list)",
+        repo: "https://github.com/jsantos42/LearningWebDev/tree/main/10%20DOM%20Events%20(shopping%20list)",
         live: "",
         description: ""
     },
