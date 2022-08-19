@@ -47,10 +47,10 @@ export const projects = [
         static: "",
         gif: face_detector_gif,
         brief: "Fullstack project, with API endpoints and login access",
-        languages: ["React.js", "Styled-Components", "Node.js", "Express.js", "JavaScript"],
+        languages: ["React.js", "Node.js", "Express.js", "PostgreSQL", "JavaScript"],
         keywords: ["full-stack", "front end", "back end", "API", "AJAX"],
         repo: "https://github.com/jsantos42/WebDev/tree/master/Face%20Detector%20(fullstack)",
-        live: "",
+        live: "https://face-detector--frontend.herokuapp.com/",
         description: ""
     },
     {
