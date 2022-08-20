@@ -9,6 +9,7 @@ import so_long_gif from './res/projects/so_long.gif'
 import notepad_gif from './res/projects/notepad.gif'
 import pokemon_gif from './res/projects/pokemon.gif'
 import face_detector_gif from './res/projects/face_detector.gif'
+import online_booking_gif from './res/projects/online_booking.gif'
 
 export const pages = {
     home: {
@@ -53,9 +54,20 @@ export const projects = [
         live: "https://face-detector--frontend.herokuapp.com/",
         description: ""
     },
-    {
-        title: "Moves of Pokémons",
-        static: "",
+	{
+		title: "Online Booking",
+		static: "",
+		gif: online_booking_gif,
+		brief: "Single Page Application to schedule appointments for a business",
+		languages: ["React.js", "JavaScript"],
+		keywords: ["front end", "Single Page Application"],
+		repo: "https://github.com/jsantos42/onlineBooking",
+		live: "",
+		description: ""
+	},
+	{
+		title: "Moves of Pokémons",
+		static: "",
         gif: pokemon_gif,
         brief: "Searchable list, using AJAX requests and a public API",
 		languages: ["React.js", "Styled-Components", "JavaScript"],
