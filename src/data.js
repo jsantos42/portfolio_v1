@@ -25,7 +25,7 @@ export const pages = {
 export const personalData = {
     title: 'joaoAlmeidaSantos',
     name: 'João Almeida Santos',
-    role: 'Junior Developer',
+    role: 'Frontend Developer',
     email: 'j-almeidasantos@hotmail.com',
     linkedIn: 'https://www.linkedin.com/in/j-almeidasantos/',
     gitHub: 'https://github.com/jsantos42',
@@ -50,7 +50,7 @@ export const projects = [
         brief: "Fullstack project, with API endpoints and login access",
         languages: ["React.js", "Node.js", "Express.js", "PostgreSQL", "JavaScript"],
         keywords: ["full-stack", "front end", "back end", "API", "AJAX"],
-        repo: "https://github.com/jsantos42/FaceDetector",
+        repo: "https://github.com/jsantos42/faceDetector",
         live: "https://face-detector--frontend.herokuapp.com/",
         description: ""
     },
@@ -72,7 +72,7 @@ export const projects = [
         brief: "Searchable list, using AJAX requests and a public API",
 		languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "API", "AJAX"],
-        repo: "https://github.com/jsantos42/MovesOfPokemon",
+        repo: "https://github.com/jsantos42/MovesOfPokemons",
         live: "",
         description: ""
     },
