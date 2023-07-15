@@ -109,7 +109,7 @@ const Home = () => {
             {/*<img src={Doctor}/>*/}
             <img src={Programmer} alt={'Programmer'}/>
             <About>
-                <h2>About Me:</h2>
+                <h2>About Me</h2>
                 <ul>
                     <li>background in <Highlight>Medicine</Highlight></li>
 					<li><Highlight>6+ years</Highlight> of clinical practice</li>
@@ -120,7 +120,7 @@ const Home = () => {
                     <li><Highlight>curious</Highlight> and passionate about <Highlight>learning</Highlight></li>
                     {/*<li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>*/}
                 </ul>
-                <h2>Currently:</h2>
+                <h2>Currently</h2>
                 <ul>
 					<li>working @<Highlight>haelsi</Highlight></li>
 					<li>improving an <Highlight>Electronic Medical Record (EMR)</Highlight> software</li>
