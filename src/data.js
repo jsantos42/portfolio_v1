@@ -25,7 +25,7 @@ export const pages = {
 export const personalData = {
     title: 'joaoAlmeidaSantos',
     name: 'João Almeida Santos',
-    role: 'Frontend Developer',
+    role: 'Full Stack Developer',
     email: 'j-almeidasantos@hotmail.com',
     linkedIn: 'https://www.linkedin.com/in/j-almeidasantos/',
     gitHub: 'https://github.com/jsantos42',
