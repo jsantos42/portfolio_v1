@@ -126,13 +126,6 @@ const Home = () => {
 					<li>improving an <Highlight>Electronic Medical Record (EMR)</Highlight> software</li>
                 </ul>
             </About>
-            <More>
-                <h2>Interested?</h2>
-                <h2>Check my <Link style={{textDecoration: 'underline'}} to={pages.projects.path}>projects</Link>!
-                </h2>
-                {/*    <img src={Me}/>*/}
-                {/*    <button>Contact Me (this button still doesn't work!)</button>*/}
-            </More>
         </StyledHome>
     )
 }
