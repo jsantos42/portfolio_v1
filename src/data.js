@@ -40,7 +40,7 @@ export const projects = [
         languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "website", "portfolio"],
         repo: "https://github.com/jsantos42/portfolio",
-        live: "https://j-almeidasantos.tech",
+        live: "https://j-almeidasantos.engineer",
         description: ""
     },
     {
