@@ -51,7 +51,7 @@ export const projects = [
         languages: ["React.js", "Node.js", "Express.js", "PostgreSQL", "JavaScript"],
         keywords: ["full-stack", "front end", "back end", "API", "AJAX"],
         repo: "https://github.com/jsantos42/faceDetector",
-        live: "https://face-detector--frontend.herokuapp.com/",
+        live: "",
         description: ""
     },
 	{
