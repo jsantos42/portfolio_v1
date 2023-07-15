@@ -112,21 +112,18 @@ const Home = () => {
                 <h2>About Me:</h2>
                 <ul>
                     <li>background in <Highlight>Medicine</Highlight></li>
-                    <li><Highlight>6+ years</Highlight> of clinical practice</li>
-                    <li>worked in <Highlight>2 countries</Highlight> (PT and FR)</li>
-                    <li>frustrated by the <Highlight>poor UX</Highlight> of healthcare software</li>
-                    <li>did a <Highlight>datascience</Highlight> project involving <Highlight>GIS</Highlight></li>
-                    <li>thrilled, enrolled at <Highlight>42</Highlight> to become a developer</li>
-                    <li>highly <Highlight>curious</Highlight> and <Highlight>motivated</Highlight> individual</li>
-                    <li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>
-                    <li>worship <A href={'https://en.wikipedia.org/wiki/Jony_Ive'}><Highlight>Sir Jony
-                        Ive</Highlight></A></li>
+					<li><Highlight>6+ years</Highlight> of clinical practice</li>
+					<li>frustrated by the <Highlight>poor UX</Highlight> of healthcare software</li>
+					<li>firm believer that <Highlight>we can change that</Highlight></li>
+                    <li>worked in <Highlight>3 countries</Highlight> 🇵🇹 🇫🇷 🇮🇹</li>
+					<li>speak <Highlight>5 languages</Highlight> 🇵🇹 🇬🇧 🇫🇷 🇮🇹 🇪🇸</li>
+                    <li><Highlight>curious</Highlight> and passionate about <Highlight>learning</Highlight></li>
+                    {/*<li>sensitive to <Highlight>UX</Highlight> and <Highlight>UI</Highlight> design/aesthetics</li>*/}
                 </ul>
                 <h2>Currently:</h2>
                 <ul>
-                    <li>finishing a <Highlight>FullStack course</Highlight> on Udemy</li>
-					<li>learning <Highlight>Typescript</Highlight></li>
-					<li>doing some <Highlight>front-end</Highlight> projects</li>
+					<li>working @<Highlight>haelsi</Highlight></li>
+					<li>improving an <Highlight>Electronic Medical Record (EMR)</Highlight> software</li>
                 </ul>
             </About>
             <More>
