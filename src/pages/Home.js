@@ -107,7 +107,7 @@ const Home = () => {
         <StyledHome>
             <h1>{personalData.role}</h1>
             {/*<img src={Doctor}/>*/}
-            <img src={Programmer} alt={'Programmer'}/>
+            {/*<img src={Programmer} alt={'Programmer'}/>*/}
             <About>
                 <h2>About Me</h2>
                 <ul>
