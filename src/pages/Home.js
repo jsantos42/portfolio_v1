@@ -155,21 +155,21 @@ const Home = () => {
                 </ul>
 				<h2>Stack</h2>
 				<Stack>
-					<img src={js} alt={'js'}/>
-					<img src={react} alt={'react'}/>
-					<img src={ember} alt={'ember'}/>
-					<img src={nodejs} alt={'nodejs'}/>
-					<img src={express} alt={'express'}/>
-					<img src={nextjs} alt={'nextjs'}/>
-					<img src={php} alt={'php'}/>
-					<img src={laravel} alt={'laravel'}/>
-					<img src={python} alt={'python'}/>
-					<img src={r} alt={'r'}/>
-					<img src={c} alt={'c'}/>
-					<img src={cpp} alt={'cpp'}/>
-					<img src={docker} alt={'docker'}/>
-					<img src={mysql} alt={'mysql'}/>
-					<img src={postgresql} alt={'postgresql'}/>
+					<A href={'https://www.javascript.com/'}><img src={js} alt={'js'}/></A>
+					<A href={'https://react.dev/'}><img src={react} alt={'react'}/></A>
+					<A href={'https://emberjs.com/'}><img src={ember} alt={'ember'}/></A>
+					<A href={'https://nodejs.org/en'}><img src={nodejs} alt={'nodejs'}/></A>
+					<A href={'https://expressjs.com/'}><img src={express} alt={'express'}/></A>
+					<A href={'https://nextjs.org/'}><img src={nextjs} alt={'nextjs'}/></A>
+					<A href={'https://www.php.net/'}><img src={php} alt={'php'}/></A>
+					<A href={'https://laravel.com/'}><img src={laravel} alt={'laravel'}/></A>
+					<A href={'https://www.python.org/'}><img src={python} alt={'python'}/></A>
+					<A href={'https://www.r-project.org/'}><img src={r} alt={'r'}/></A>
+					<A href={'https://www.iso.org/standard/74528.html'}><img src={c} alt={'c'}/></A>
+					<A href={'https://isocpp.org/'}><img src={cpp} alt={'cpp'}/></A>
+					<A href={'https://www.docker.com/'}><img src={docker} alt={'docker'}/></A>
+					<A href={'https://www.mysql.com/'}><img src={mysql} alt={'mysql'}/></A>
+					<A href={'https://www.postgresql.org/'}><img src={postgresql} alt={'postgresql'}/></A>
 				</Stack>
             </About>
         </StyledHome>
