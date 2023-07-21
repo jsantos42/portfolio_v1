@@ -141,7 +141,7 @@ const Home = () => {
                 <ul>
                     <li>background in <Highlight>Medicine</Highlight></li>
 					<li><Highlight>6+ years</Highlight> of clinical practice</li>
-					<li>frustrated by the <Highlight>poor UX</Highlight> of healthcare software</li>
+					<li>aware of the <Highlight>poor UX</Highlight> of healthcare software</li>
 					<li>firm believer that <Highlight>we can change that</Highlight></li>
                     <li>worked in <Highlight>3 countries</Highlight> 🇵🇹 🇫🇷 🇮🇹</li>
 					<li>speak <Highlight>5 languages</Highlight> 🇵🇹 🇬🇧 🇫🇷 🇮🇹 🇪🇸</li>
