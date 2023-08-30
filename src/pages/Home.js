@@ -8,6 +8,7 @@ import styled from "styled-components";
 // import Doctor from "../res/undraw_doctor_kw5l.png"
 // import Me from "../res/me.png"
 import js from "../res/stack_logos/js.png"
+import ts from "../res/stack_logos/ts.png"
 import react from "../res/stack_logos/react.png"
 import ember from "../res/stack_logos/ember.png"
 import nodejs from "../res/stack_logos/nodejs.png"
@@ -156,6 +157,7 @@ const Home = () => {
 				<h2>Stack</h2>
 				<Stack>
 					<A href={'https://www.javascript.com/'}><img src={js} alt={'js'}/></A>
+					<A href={'https://www.typescriptlang.org/'}><img src={ts} alt={'ts'}/></A>
 					<A href={'https://react.dev/'}><img src={react} alt={'react'}/></A>
 					<A href={'https://emberjs.com/'}><img src={ember} alt={'ember'}/></A>
 					<A href={'https://nodejs.org/en'}><img src={nodejs} alt={'nodejs'}/></A>
