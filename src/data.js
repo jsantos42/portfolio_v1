@@ -10,6 +10,7 @@ import notepad_gif from './res/projects/notepad.gif'
 import pokemon_gif from './res/projects/pokemon.gif'
 import face_detector_gif from './res/projects/face_detector.gif'
 import online_booking_gif from './res/projects/online_booking.gif'
+import online_shop_api from './res/projects/online_shop_api.png'
 
 export const pages = {
     home: {
@@ -32,6 +33,17 @@ export const personalData = {
 }
 
 export const projects = [
+    {
+        title: "Online Shop API",
+        static: "",
+        gif: online_shop_api,
+        brief: "API with OAuth2 authentication that sends confirmation emails to clients",
+        languages: ["Laravel", "PHP", "PHPunit"],
+        keywords: ["backend", "database", "OAuth2"],
+        repo: "https://github.com/jsantos42/OnlineShopAPI",
+        live: "",
+        description: ""
+    },
     {
         title: "Portfolio",
         static: "",
