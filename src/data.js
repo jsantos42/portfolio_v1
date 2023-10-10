@@ -44,17 +44,17 @@ export const projects = [
         live: "",
         description: ""
     },
-    {
-        title: "Portfolio",
-        static: "",
-        gif: portfolio_gif,
-        brief: "Website showcasing my main projects",
-        languages: ["React.js", "Styled-Components", "JavaScript"],
-        keywords: ["front end", "website", "portfolio"],
-        repo: "https://github.com/jsantos42/portfolio",
-        live: "https://j-almeidasantos.engineer",
-        description: ""
-    },
+	{
+		title: "Fast-Food and Schools in Portugal",
+		static: "",
+		gif: fast_food_gif,
+		brief: "Datascience project to find out a potential geographical clustering",
+		languages: ["Python", "R"],
+		keywords: ["datascience", "healthcare", "jupyter notebook"],
+		repo: "https://github.com/jsantos42/fast_food_and_schools_in_Portugal",
+		live: "",
+		description: ""
+	},
     {
         title: "Face Detector",
         static: "",
@@ -78,6 +78,17 @@ export const projects = [
 		description: ""
 	},
 	{
+		title: "Portfolio",
+		static: "",
+		gif: portfolio_gif,
+		brief: "Website showcasing my main projects",
+		languages: ["React.js", "Styled-Components", "JavaScript"],
+		keywords: ["front end", "website", "portfolio"],
+		repo: "https://github.com/jsantos42/portfolio",
+		live: "https://j-almeidasantos.engineer",
+		description: ""
+	},
+	{
 		title: "Moves of Pokémons",
 		static: "",
         gif: pokemon_gif,
@@ -85,17 +96,6 @@ export const projects = [
 		languages: ["React.js", "Styled-Components", "JavaScript"],
         keywords: ["front end", "API", "AJAX"],
         repo: "https://github.com/jsantos42/MovesOfPokemons",
-        live: "",
-        description: ""
-    },
-    {
-        title: "Fast-Food and Schools in Portugal",
-        static: "",
-        gif: fast_food_gif,
-        brief: "Datascience project to find out a potential geographical clustering",
-        languages: ["Python", "R"],
-        keywords: ["datascience", "healthcare", "jupyter notebook"],
-        repo: "https://github.com/jsantos42/fast_food_and_schools_in_Portugal",
         live: "",
         description: ""
     },
