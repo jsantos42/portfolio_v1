@@ -110,28 +110,6 @@ export const projects = [
         live: "",
         description: ""
     },
-    // {
-    //     title: "RoboFriends App",
-    //     static: "",
-    //     gif: robots_gif,
-    //     brief: "My first React project, following a Udemy course",
-    //     languages: ["React.js", "JavaScript"],
-    //     keywords: ["front end", "website", "app"],
-    //     repo: "https://github.com/jsantos42/WebDev/tree/master/13_Robot_App",
-    //     live: "",
-    //     description: ""
-    // },
-    {
-        title: "Shopping List",
-        static: "",
-        gif: shopping_gif,
-        brief: "My first project in Vanilla JS",
-        languages: ["JavaScript" ],
-        keywords: ["front end", "website", "app"],
-        repo: "https://github.com/jsantos42/LearningWebDev/tree/main/10%20DOM%20Events%20(shopping%20list)",
-        live: "",
-        description: ""
-    },
     {
         title: "Minishell",
         static: "",
